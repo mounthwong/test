@@ -1,0 +1,2108 @@
+[ 2018-06-28T00:59:39+08:00 ] 5.2.75.212 /templates/Rebirth/assets/js/wow.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载控制器:Templates
+
+[ 2018-06-28T04:47:43+08:00 ] 80.82.70.187 /cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-28T06:40:59+08:00 ] 217.13.107.26 /w00tw00t.at.blackhats.romanian.anti-sec:)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 /usr/share/nginx/html/ThinkPHP/Library/Think/Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 /usr/share/nginx/html/ThinkPHP/Library/Think/Dispatcher.class.php 第 209 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-06-28T10:02:35+08:00 ] 1.193.63.26 /login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T10:02:35+08:00 ] 1.193.63.26 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-06-28T10:02:48+08:00 ] 1.193.63.26 /login/login?username=admin&pwd=mxl12468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/share/nginx/html/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `md_admin` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`username`,`pwd`,`ifadmin`,`ifuse` FROM `md_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-28T10:02:48+08:00 ] 1.193.63.26 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2018-06-28T10:02:48+08:00 ] 1.193.63.26 /Home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2018-06-28T10:02:48+08:00 ] 1.193.63.26 /Home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-06-28T10:02:48+08:00 ] 1.193.63.26 /Home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-06-28T10:02:50+08:00 ] 1.193.63.26 /word/in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2018-06-28T10:02:52+08:00 ] 1.193.63.26 /word/in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2018-06-28T10:02:52+08:00 ] 1.193.63.26 /word/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2018-06-28T10:02:52+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=0&random=0.6856931897798728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0349s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0013s ]
+
+[ 2018-06-28T10:03:01+08:00 ] 1.193.63.26 /word/getlist?name=%E8%AF%8A%E6%9F%A5%E8%B4%B9&pagenum=0&random=0.6243386592091096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%诊查费%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%诊查费%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T10:03:04+08:00 ] 1.193.63.26 /word/edit?id=2704&ran=0.6200572635164128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=2704 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T10:03:07+08:00 ] 1.193.63.26 /word/medicineedit?id=2704&data=%7B%22code%22%3A%22JDBSWHCRYDS%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E6%80%A5%E8%AF%8A%E8%AF%8A%E6%9F%A5%E8%B4%B9%22%7D&random=0.07129160172332871
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='JDBSWHCRYDS',`medicine_rate`='1',`medicine_name`='急诊诊查费',`addtime`='2018-06-28 10:03:07' WHERE ( id=2704 ) [ RunTime:0.0040s ]
+
+[ 2018-06-28T10:03:07+08:00 ] 1.193.63.26 /word/getlist?name=%E8%AF%8A%E6%9F%A5%E8%B4%B9&pagenum=NaN&random=0.32949291970922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%诊查费%' and isdel=1 [ RunTime:0.0118s ]
+SQL: select * from md_medicine where medicine_name like '%诊查费%' and isdel=1 limit 0,200 [ RunTime:0.0115s ]
+
+[ 2018-06-28T10:03:43+08:00 ] 1.193.63.26 /word/getlist?name=%E8%AF%8A%E5%AF%9F%E8%B4%B9&pagenum=0&random=0.8219015738550703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%诊察费%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%诊察费%' and isdel=1 limit 0,200 [ RunTime:0.0118s ]
+
+[ 2018-06-28T10:03:47+08:00 ] 1.193.63.26 /word/edit?id=15334&ran=0.40987729687757746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=15334 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T10:03:50+08:00 ] 1.193.63.26 /word/medicineedit?id=15334&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E5%89%AF%E4%B8%BB%E4%BB%BB%E5%8C%BB%E5%B8%88%E8%AF%8A%E5%AF%9F%E8%B4%B9%22%7D&random=0.35052300198593933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='1',`medicine_name`='副主任医师诊察费',`addtime`='2018-06-28 10:03:50' WHERE ( id=15334 ) [ RunTime:0.0023s ]
+
+[ 2018-06-28T10:03:50+08:00 ] 1.193.63.26 /word/getlist?name=%E8%AF%8A%E5%AF%9F%E8%B4%B9&pagenum=NaN&random=0.7907223340903542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%诊察费%' and isdel=1 [ RunTime:0.0122s ]
+SQL: select * from md_medicine where medicine_name like '%诊察费%' and isdel=1 limit 0,200 [ RunTime:0.0114s ]
+
+[ 2018-06-28T10:16:35+08:00 ] 1.193.63.26 /word/getlist?name=%E6%AD%A2%E8%A1%80%E6%9D%90%E6%96%99&pagenum=0&random=0.7845144763921421
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T10:17:37+08:00 ] 1.193.63.26 /word/edit?id=15621&ran=0.07913918056015845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=15621 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T10:17:42+08:00 ] 1.193.63.26 /word/medicineedit?id=15621&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220.2%22%2C%22name%22%3A%22%E5%8F%AF%E5%90%B8%E6%94%B6%E6%AD%A2%E8%A1%80%E6%9D%90%E6%96%99%EF%BC%88%E7%9E%AC%E6%97%B6%EF%BC%89%22%7D&random=0.4802975589167737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='0.2',`medicine_name`='可吸收止血材料（瞬时）',`addtime`='2018-06-28 10:17:42' WHERE ( id=15621 ) [ RunTime:0.0023s ]
+
+[ 2018-06-28T10:17:43+08:00 ] 1.193.63.26 /word/getlist?name=%E6%AD%A2%E8%A1%80%E6%9D%90%E6%96%99&pagenum=NaN&random=0.9395970958016278
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 [ RunTime:0.0121s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 limit 0,200 [ RunTime:0.0114s ]
+
+[ 2018-06-28T10:17:51+08:00 ] 1.193.63.26 /word/edit?id=15621&ran=0.6228316117605295
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=15621 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-28T10:17:55+08:00 ] 1.193.63.26 /word/medicineedit?id=15621&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220.3%22%2C%22name%22%3A%22%E5%8F%AF%E5%90%B8%E6%94%B6%E6%AD%A2%E8%A1%80%E6%9D%90%E6%96%99%EF%BC%88%E7%9E%AC%E6%97%B6%EF%BC%89%22%7D&random=0.7742087779453608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='0.3',`medicine_name`='可吸收止血材料（瞬时）',`addtime`='2018-06-28 10:17:55' WHERE ( id=15621 ) [ RunTime:0.0022s ]
+
+[ 2018-06-28T10:17:55+08:00 ] 1.193.63.26 /word/getlist?name=%E6%AD%A2%E8%A1%80%E6%9D%90%E6%96%99&pagenum=NaN&random=0.7096225026653262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%止血材料%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T10:18:28+08:00 ] 1.193.63.26 /word/getlist?name=%E9%A9%B1%E8%A1%80%E4%BB%AA&pagenum=0&random=0.8517256208488477
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%驱血仪%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%驱血仪%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T10:23:17+08:00 ] 1.193.63.26 /word/getlist?name=%E5%B7%9D%E8%8A%8E%E5%97%AA&pagenum=0&random=0.9116369181813313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%川芎嗪%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%川芎嗪%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:04:07+08:00 ] 1.193.63.26 /word/getlist?name=%E4%BC%98%E8%80%90%E5%A4%AB&pagenum=0&random=0.25435852233313905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%优耐夫%' and isdel=1 [ RunTime:0.0125s ]
+SQL: select * from md_medicine where medicine_name like '%优耐夫%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:04:29+08:00 ] 1.193.63.26 /word/edit?id=16020&ran=0.2979110547794188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=16020 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-06-28T11:04:35+08:00 ] 1.193.63.26 /word/medicineedit?id=16020&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220.2%22%2C%22name%22%3A%22%E8%83%B6%E5%B8%A6%EF%BC%88%E4%BC%98%E8%80%90%E5%A4%AB%EF%BC%89%22%7D&random=0.8030492765540678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='0.2',`medicine_name`='胶带（优耐夫）',`addtime`='2018-06-28 11:04:35' WHERE ( id=16020 ) [ RunTime:0.0025s ]
+
+[ 2018-06-28T11:04:35+08:00 ] 1.193.63.26 /word/getlist?name=%E4%BC%98%E8%80%90%E5%A4%AB&pagenum=NaN&random=0.1421961096399167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%优耐夫%' and isdel=1 [ RunTime:0.0126s ]
+SQL: select * from md_medicine where medicine_name like '%优耐夫%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T11:05:44+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7%E5%B7%BE%E5%8D%95&pagenum=0&random=0.10441354412703552
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%一次性巾单%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%一次性巾单%' and isdel=1 limit 0,200 [ RunTime:0.0118s ]
+
+[ 2018-06-28T11:05:51+08:00 ] 1.193.63.26 /word/edit?id=12668&ran=0.08000542288540857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=12668 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-06-28T11:05:56+08:00 ] 1.193.63.26 /word/medicineedit?id=12668&data=%7B%22code%22%3A%22FFDKLNBH%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E5%B7%BE%E5%8D%95%22%7D&random=0.9689073336015179
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='FFDKLNBH',`medicine_rate`='1',`medicine_name`='一次性巾单',`addtime`='2018-06-28 11:05:56' WHERE ( id=12668 ) [ RunTime:0.0024s ]
+
+[ 2018-06-28T11:05:56+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7%E5%B7%BE%E5%8D%95&pagenum=NaN&random=0.12225093285915589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%一次性巾单%' and isdel=1 [ RunTime:0.0117s ]
+SQL: select * from md_medicine where medicine_name like '%一次性巾单%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T11:06:03+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=0&random=0.5258759871530148
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0130s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0098s ]
+
+[ 2018-06-28T11:06:39+08:00 ] 1.193.63.26 /word/edit?id=12669&ran=0.9257884658653588
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=12669 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-06-28T11:06:42+08:00 ] 1.193.63.26 /word/medicineedit?id=12669&data=%7B%22code%22%3A%22KBSCBTMS%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E5%8D%AB%E7%94%9F%E7%94%A8%E5%93%81%22%7D&random=0.44108490367834374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='KBSCBTMS',`medicine_rate`='1',`medicine_name`='一次性卫生用品',`addtime`='2018-06-28 11:06:42' WHERE ( id=12669 ) [ RunTime:0.0026s ]
+
+[ 2018-06-28T11:06:42+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=NaN&random=0.91531736709175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0005s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0130s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0098s ]
+
+[ 2018-06-28T11:06:55+08:00 ] 1.193.63.26 /word/edit?id=12824&ran=0.4963009948305417
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=12824 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-06-28T11:06:55+08:00 ] 1.193.63.26 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+
+[ 2018-06-28T11:06:55+08:00 ] 1.193.63.26 /login/nolog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-06-28T11:06:55+08:00 ] 1.193.63.26 /login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-06-28T11:06:58+08:00 ] 1.193.63.26 /word/medicineedit?id=12824&data=%7B%22code%22%3A%22GSJT%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E4%BD%BF%E7%94%A8%E5%8C%BB%E7%94%A8%E5%9E%AB%E5%8D%95%EF%BC%88%E7%9C%8B%E6%8A%A4%E5%9E%AB%EF%BC%89%22%7D&random=0.5659181282334345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='GSJT',`medicine_rate`='1',`medicine_name`='一次性使用医用垫单（看护垫）',`addtime`='2018-06-28 11:06:58' WHERE ( id=12824 ) [ RunTime:0.0030s ]
+
+[ 2018-06-28T11:06:58+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=NaN&random=0.30939033545248473
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0132s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0099s ]
+
+[ 2018-06-28T11:07:09+08:00 ] 1.193.63.26 /login/login?username=admin&pwd=mxl12468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/share/nginx/html/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `md_admin` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`username`,`pwd`,`ifadmin`,`ifuse` FROM `md_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-06-28T11:07:09+08:00 ] 1.193.63.26 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:07:09+08:00 ] 1.193.63.26 /Home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:07:09+08:00 ] 1.193.63.26 /Home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2018-06-28T11:07:09+08:00 ] 1.193.63.26 /Home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T11:07:10+08:00 ] 1.193.63.26 /word/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-28T11:07:11+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=0&random=0.34288480319082737
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0345s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0014s ]
+
+[ 2018-06-28T11:07:55+08:00 ] 101.226.86.154 /login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T11:07:55+08:00 ] 101.226.79.234 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-06-28T11:07:56+08:00 ] 61.151.226.143 /Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+
+[ 2018-06-28T11:07:56+08:00 ] 61.151.226.110 /login/nolog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2018-06-28T11:08:00+08:00 ] 1.193.63.26 /word/edit?id=13329&ran=0.14820026328761315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=13329 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-06-28T11:08:05+08:00 ] 1.193.63.26 /word/medicineedit?id=13329&data=%7B%22code%22%3A%22QLPPL%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E8%A2%AB%E7%BD%A9%22%7D&random=0.39844389319426643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='QLPPL',`medicine_rate`='1',`medicine_name`='一次性被罩',`addtime`='2018-06-28 11:08:05' WHERE ( id=13329 ) [ RunTime:0.0825s ]
+
+[ 2018-06-28T11:08:05+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=NaN&random=0.14153531653278728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0128s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0098s ]
+
+[ 2018-06-28T11:08:09+08:00 ] 101.226.93.198 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2018-06-28T11:08:41+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.22628803248517215
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-06-28T11:08:54+08:00 ] 1.193.63.26 /word/edit?id=13922&ran=0.12639389680574342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=13922 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T11:08:58+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E6%97%B1%E8%8E%B2%E8%8D%89%22%7D&random=0.3801718349568546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='旱莲草' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','旱莲草','2018-06-28 11:08:58') [ RunTime:0.0023s ]
+
+[ 2018-06-28T11:08:58+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=NaN&random=0.06411999580450356
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0349s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0013s ]
+
+[ 2018-06-28T11:08:58+08:00 ] 1.193.63.26 /word/medicineedit?id=13922&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E5%8C%BB%E7%94%A8%E5%9E%AB%EF%BC%8880*150%2F5%2F350%EF%BC%89%22%7D&random=0.34570490601737425
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='1',`medicine_name`='一次性医用垫（80*150/5/350）',`addtime`='2018-06-28 11:08:58' WHERE ( id=13922 ) [ RunTime:0.0024s ]
+
+[ 2018-06-28T11:08:58+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=NaN&random=0.9177812408784529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0131s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0099s ]
+
+[ 2018-06-28T11:09:00+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.09955542418174446
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-06-28T11:09:07+08:00 ] 1.193.63.26 /word/edit?id=13926&ran=0.11937294045904356
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=13926 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T11:09:09+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E8%A1%A5%E9%AA%A8%E8%84%82%22%7D&random=0.7622828781604767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='补骨脂' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','补骨脂','2018-06-28 11:09:09') [ RunTime:0.0025s ]
+
+[ 2018-06-28T11:09:09+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=NaN&random=0.874207025161013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0349s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0013s ]
+
+[ 2018-06-28T11:09:11+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.9713518905919045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:09:11+08:00 ] 1.193.63.26 /word/medicineedit?id=13926&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%221%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E5%8C%BB%E7%94%A8%E5%9E%AB80*230%22%7D&random=0.8229776266440407
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='',`medicine_rate`='1',`medicine_name`='一次性医用垫80*230',`addtime`='2018-06-28 11:09:11' WHERE ( id=13926 ) [ RunTime:0.0022s ]
+
+[ 2018-06-28T11:09:11+08:00 ] 1.193.63.26 /word/getlist?name=%E4%B8%80%E6%AC%A1%E6%80%A7&pagenum=NaN&random=0.22917463848918773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 [ RunTime:0.0131s ]
+SQL: select * from md_medicine where medicine_name like '%一次性%' and isdel=1 limit 0,200 [ RunTime:0.0099s ]
+
+[ 2018-06-28T11:09:19+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%89%9B%E8%86%9D%22%7D&random=0.14792492846027017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牛膝' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','牛膝','2018-06-28 11:09:19') [ RunTime:0.0023s ]
+
+[ 2018-06-28T11:09:19+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=NaN&random=0.5727164156269282
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0351s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0013s ]
+
+[ 2018-06-28T11:09:27+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=0&random=0.1948241568170488
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:09:30+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.5631142444908619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:09:37+08:00 ] 1.193.63.26 /word/getlist?name=%E8%B4%9F%E5%8E%8B&pagenum=0&random=0.8992101158603647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 [ RunTime:0.0117s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 limit 0,200 [ RunTime:0.0115s ]
+
+[ 2018-06-28T11:09:37+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E6%9E%B8%E6%9D%9E%E5%AD%90%22%7D&random=0.7105362466536462
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='枸杞子' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','枸杞子','2018-06-28 11:09:37') [ RunTime:0.0033s ]
+
+[ 2018-06-28T11:09:38+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.9332328818272799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0122s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0115s ]
+
+[ 2018-06-28T11:09:39+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.24744562502019107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2018-06-28T11:09:47+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%94%98%E8%8D%89%22%7D&random=0.6705507033038884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='甘草' )  [ RunTime:0.0095s ]
+
+[ 2018-06-28T11:09:48+08:00 ] 101.226.86.152 /login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2018-06-28T11:09:51+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.5372698295395821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-06-28T11:09:51+08:00 ] 1.193.63.26 /word/edit?id=13259&ran=0.12636464457104069
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=13259 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-06-28T11:09:58+08:00 ] 1.193.63.26 /word/medicineedit?id=13259&data=%7B%22code%22%3A%22XEXSTKL%22%2C%22price%22%3A%220.1%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E8%B4%9F%E5%8E%8B%E6%8A%BD%E8%A1%80%E9%92%88%E5%A4%B4%22%7D&random=0.5097348482027271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='XEXSTKL',`medicine_rate`='0.1',`medicine_name`='一次性负压抽血针头',`addtime`='2018-06-28 11:09:58' WHERE ( id=13259 ) [ RunTime:0.0023s ]
+
+[ 2018-06-28T11:09:58+08:00 ] 1.193.63.26 /word/getlist?name=%E8%B4%9F%E5%8E%8B&pagenum=NaN&random=0.5869531740526315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 [ RunTime:0.0122s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 limit 0,200 [ RunTime:0.0118s ]
+
+[ 2018-06-28T11:09:59+08:00 ] 1.193.63.26 /word/edit?id=13262&ran=0.9596359111111643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( id=13262 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T11:10:03+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E6%9D%9C%E4%BB%B2%22%7D&random=0.8980740148108453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='杜仲' )  [ RunTime:0.0095s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','杜仲','2018-06-28 11:10:03') [ RunTime:0.0023s ]
+
+[ 2018-06-28T11:10:03+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.9012703946791589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:10:04+08:00 ] 1.193.63.26 /word/medicineedit?id=13262&data=%7B%22code%22%3A%22XXJN%22%2C%22price%22%3A%220.1%22%2C%22name%22%3A%22%E4%B8%80%E6%AC%A1%E6%80%A7%E8%B4%9F%E5%8E%8B%E6%8A%BD%E8%A1%80%E7%AE%A1%22%7D&random=0.6574051851586684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: UPDATE `md_medicine` SET `medicine_code`='XXJN',`medicine_rate`='0.1',`medicine_name`='一次性负压抽血管',`addtime`='2018-06-28 11:10:04' WHERE ( id=13262 ) [ RunTime:0.0023s ]
+
+[ 2018-06-28T11:10:04+08:00 ] 1.193.63.26 /word/getlist?name=%E8%B4%9F%E5%8E%8B&pagenum=NaN&random=0.8705244646746335
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0005s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%负压%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:10:05+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.8723847551736981
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2018-06-28T11:10:16+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E5%8C%97%E6%B2%99%E5%8F%82%22%7D&random=0.2743690204806626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='北沙参' )  [ RunTime:0.0095s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','北沙参','2018-06-28 11:10:16') [ RunTime:0.0022s ]
+
+[ 2018-06-28T11:10:16+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.17799684079363942
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0115s ]
+
+[ 2018-06-28T11:10:17+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.4677668488584459
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2018-06-28T11:10:32+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E9%BA%A6%E5%86%AC%22%7D&random=0.6087676857132465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='麦冬' )  [ RunTime:0.0095s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','麦冬','2018-06-28 11:10:32') [ RunTime:0.0020s ]
+
+[ 2018-06-28T11:10:32+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.7289299021940678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T11:10:33+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.6935312713030726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-06-28T11:10:45+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%82%99%E7%94%98%E8%8D%89%22%7D&random=0.361020187381655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='炙甘草' )  [ RunTime:0.0096s ]
+
+[ 2018-06-28T11:10:49+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.4963457297999412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-06-28T11:11:00+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%82%92%E6%9D%9C%E4%BB%B2%22%7D&random=0.675733937881887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='炒杜仲' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','炒杜仲','2018-06-28 11:11:00') [ RunTime:0.0022s ]
+
+[ 2018-06-28T11:11:00+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.1629776880145073
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:11:01+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.3750823177397251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T11:11:14+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%82%92%E7%99%BD%E8%8A%8D%22%7D&random=0.7499946299940348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='炒白芍' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','炒白芍','2018-06-28 11:11:14') [ RunTime:0.0024s ]
+
+[ 2018-06-28T11:11:14+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.6704248406458646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:11:16+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.5983060093130916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-06-28T11:11:28+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E5%A4%A9%E5%86%AC%22%7D&random=0.8002296574413776
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='天冬' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','天冬','2018-06-28 11:11:28') [ RunTime:0.0021s ]
+
+[ 2018-06-28T11:11:28+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.4815011005848646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T11:11:30+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.44893985125236213
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:11:42+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E8%9D%89%E8%9C%95%22%7D&random=0.08534715557470918
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='蝉蜕' )  [ RunTime:0.0092s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','蝉蜕','2018-06-28 11:11:42') [ RunTime:0.0022s ]
+
+[ 2018-06-28T11:11:42+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.31932643498294055
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0116s ]
+
+[ 2018-06-28T11:11:44+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.47535255970433354
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-06-28T11:11:52+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%9B%8A%E6%99%BA%E4%BB%81%22%7D&random=0.8525671402458102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='益智仁' )  [ RunTime:0.0094s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','益智仁','2018-06-28 11:11:52') [ RunTime:0.0040s ]
+
+[ 2018-06-28T11:11:52+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.5004486059769988
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0115s ]
+
+[ 2018-06-28T11:11:54+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.10913286171853542
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2018-06-28T11:12:03+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E5%BD%93%E5%BD%92%22%7D&random=0.49267634050920606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='当归' )  [ RunTime:0.0093s ]
+
+[ 2018-06-28T11:12:06+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.7670822790823877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-06-28T11:12:14+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E9%99%88%E7%9A%AE%22%7D&random=0.5330844528507441
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='陈皮' )  [ RunTime:0.0095s ]
+
+[ 2018-06-28T11:12:18+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.3847869022283703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-06-28T11:12:27+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E7%82%92%E7%99%BD%E6%9C%AF%22%7D&random=0.6610354932490736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='炒白术' )  [ RunTime:0.0095s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','炒白术','2018-06-28 11:12:27') [ RunTime:0.0024s ]
+
+[ 2018-06-28T11:12:27+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.8103753891773522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0123s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0117s ]
+
+[ 2018-06-28T11:12:29+08:00 ] 1.193.63.26 /word/edit?id=0&ran=0.9646195301320404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: medicine_code /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 16 行.
+NOTIC: [8] Undefined variable: medicine_name /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 21 行.
+NOTIC: [8] Undefined variable: medicine_rate /usr/share/nginx/html/App/Runtime/Cache/Home/b00290c3e789a35a490a973cc3059f17.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-06-28T11:12:37+08:00 ] 1.193.63.26 /word/medicineedit?id=0&data=%7B%22code%22%3A%22%22%2C%22price%22%3A%220%22%2C%22name%22%3A%22%E8%A6%86%E7%9B%86%E5%AD%90%22%7D&random=0.27854229137301445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='覆盆子' )  [ RunTime:0.0095s ]
+SQL: INSERT INTO `md_medicine` (`medicine_code`,`medicine_rate`,`medicine_name`,`addtime`) VALUES ('','0','覆盆子','2018-06-28 11:12:37') [ RunTime:0.0021s ]
+
+[ 2018-06-28T11:12:37+08:00 ] 1.193.63.26 /word/getlist?name=%E6%9E%B8%E6%9D%9E&pagenum=NaN&random=0.2290107326116413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0005s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 [ RunTime:0.0120s ]
+SQL: select * from md_medicine where medicine_name like '%枸杞%' and isdel=1 limit 0,200 [ RunTime:0.0113s ]
+
+[ 2018-06-28T11:19:41+08:00 ] 71.6.202.198 /ccvv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载控制器:Ccvv
+
+[ 2018-06-28T11:49:34+08:00 ] 1.193.63.26 /word/getlist?name=%E8%B4%9E%E8%8A%AA%E6%89%B6%E6%AD%A3%E9%A2%97%E7%B2%92&pagenum=0&random=0.9670070481852004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+SQL: select * from md_medicine where medicine_name like '%贞芪扶正颗粒%' and isdel=1 [ RunTime:0.0124s ]
+SQL: select * from md_medicine where medicine_name like '%贞芪扶正颗粒%' and isdel=1 limit 0,200 [ RunTime:0.0118s ]
+
+[ 2018-06-28T14:31:12+08:00 ] 115.60.60.50 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+
+[ 2018-06-28T14:31:13+08:00 ] 115.60.60.50 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-06-28T15:33:08+08:00 ] 116.255.132.6 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+
+[ 2018-06-28T15:37:26+08:00 ] 1.193.63.26 /word/upload?&ran=0.20581182790920138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2018-06-28T15:37:53+08:00 ] 1.193.63.26 /Home//upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/share/nginx/html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-06-28T15:38:00+08:00 ] 1.193.63.26 /word/importMedicine?filename=201806%2F5b34905151f01.xlsx&random=0.3632806073874235
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: iserr /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 28 行.
+
+[ 2018-06-28T15:38:08+08:00 ] 1.193.63.26 /word/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2018-06-28T15:38:09+08:00 ] 1.193.63.26 /word/getlist?name=&pagenum=0&random=0.4207926217932254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0006s ]
+SQL: select * from md_medicine where  isdel=1 [ RunTime:0.0350s ]
+SQL: select * from md_medicine where isdel=1 limit 0,200 [ RunTime:0.0016s ]
+
+[ 2018-06-28T15:53:06+08:00 ] 1.193.63.26 /Home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2018-06-28T15:53:06+08:00 ] 1.193.63.26 /Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2018-06-28T15:54:06+08:00 ] 101.227.131.139 /Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2018-06-28T15:54:12+08:00 ] 101.226.79.238 /Home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2018-06-28T23:19:19+08:00 ] 80.82.70.187 /cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+

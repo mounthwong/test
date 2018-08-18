@@ -1,0 +1,523 @@
+<?php
+namespace app\admin\controller\order;
+
+use app\common\controller\Backend;
+use fast\Random;
+use think\Cookie;
+use think\Loader;
+use app\common\library\Order as UserOrder;
+/**
+ * 会员管理
+ *
+ * @icon fa fa-user
+ */
+class My extends Backend
+{
+
+    protected $relationSearch = true;
+
+    /**
+     * User模型对象
+     */
+    protected $model = null;
+
+    public function _initialize()
+    {
+        parent::_initialize();
+        $this->model = model('ProductOrder');
+    }
+
+    /**
+     * 查看
+     */
+    public function index()
+    {
+        //设置过滤方法
+        $this->request->filter(['strip_tags']);
+
+        if ($this->request->isAjax())
+        {
+            //如果发送的来源是Selectpage，则转发到Selectpage
+            if ($this->request->request('keyField'))
+            {
+                return $this->selectpage();
+            }
+
+            //查询当前用户所有的订单
+            $username=Cookie::get('username');
+            $user=model("Admin")->where("username",$username)->find();
+            $truename=$user["nickname"];
+            list($where, $sort, $order, $offset, $limit) = $this->buildparams();
+            $total = $this->model
+                    ->with('userinfo,orderinfo')
+                    ->where($where)
+                    ->where("kfsendperson",$truename)
+                    ->order($sort, $order)
+                    ->count();
+            $list = $this->model
+                    ->with('userinfo,orderinfo')
+                    ->where($where)
+                    ->where("kfsendperson",$truename)
+                    ->order($sort, $order)
+                    ->limit($offset, $limit)
+                    ->select();
+            $result = array("total" => $total, "rows" => $list);
+
+            return json($result);
+        }
+        return $this->view->fetch();
+    }
+
+    /**
+     * 编辑
+     */
+    public function card($ids = NULL)
+    {
+        $row = $this->model->get($ids);
+        if (!$row)
+            $this->error(__('No Results were found'));
+        $this->view->assign('groupList', build_select('row[group_id]', \app\admin\model\UserGroup::column('id,name'), $row['group_id'], ['class' => 'form-control selectpicker']));
+        return parent::edit($ids);
+    }
+
+     /**
+     * 详情
+     */
+    public function detail($ids)
+    {
+        $row = model('ProductOrderProcedure')->get(['orderid' => $ids]);
+        if ($row){
+            $this->view->assign("row", $row->toArray());
+        }
+        else{
+            $this->view->assign("row", array());
+        }
+        
+        return $this->view->fetch();
+    }
+
+    // 客户信息
+    public function edit($ids = NULL){
+        $row = $this->model->get($ids);
+        if (!$row)
+            $this->error(__('No Results were found'));
+        if ($this->request->isPost())
+        {
+            $params = $this->request->post("row/a");
+            if ($params)
+            {
+                try
+                {
+                    //是否采用模型验证
+                    $result = $row->save($params);
+                    $username=$params["adminid"];
+                    $data["fromuserid"]=Cookie::get('username');
+                    $data["touserid"]=$username;
+                    $data["orderid"]=$row["orderid"];
+                    $data["addtime"]=time();
+                    $res=$productOrderProcedure=model("ProductOrderProcedure")->save($data);
+
+                    if ($result !== false && $res !== false)
+                    {
+                        $this->success();
+                    }
+                    else
+                    {
+                        $this->error($row->getError());
+                    }
+                }
+                catch (\think\exception\PDOException $e)
+                {
+                    $this->error($e->getMessage());
+                }
+
+                //再记录表中添加一条数据
+                
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        $this->view->assign("row", $row);
+        //查询受理人
+        $username=Cookie::get('username');
+        $rs=model("Admin")->where("username",$username)->find();
+        $truename=$rs["nickname"];
+        $this->view->assign("truename",$truename);
+        $this->view->assign('groupList', build_select('row[adminid]', \app\admin\model\Admin::column('username,nickname'), 0, ['class' => 'form-control selectpicker tds']));
+        return $this->view->fetch();
+    }
+
+    public function custom($ids){
+        //订单客户信息信息
+        $produce=$this->model->get($ids);
+        $order = model("ProductOrder")->where("orderid",$product["orderid"])->find();
+        $order["createtime"]=date('Y-m-d H:i:s', $order["createtime"]);
+        //获取客户信息
+        $user=model("user")->where("username",$order["userid"])->find();
+        //获取记录
+        $record=model("UserRecords")->where("orderid",$order["orderid"])->find();
+        if ($this->request->isPost())
+        {
+            $params = $this->request->post("order/a");
+            $records = $this->request->post("record/a");
+            $records["username"]=$user["username"];
+            $records["orderid"]=$order["orderid"];
+            $recordid=$this->request->post("recordid");
+            if ($params)
+            {
+                try
+                {
+                    //是否采用模型验证
+                    $params["isread"]=1;
+                    $result = $order->save($params);
+                    //recods修改
+                    if($recordid){
+                        $res=model("UserRecords")->where("id",$recordid)->update($records);
+                    }else{
+                        $res=model("UserRecords")->save($records);
+                    }
+                    if ($result !== false && $res !== false)
+                    {
+                        $this->success();
+                    }
+                    else
+                    {
+                        $this->error($order->getError());
+                    }
+                }
+                catch (\think\exception\PDOException $e)
+                {
+                    $this->error($e->getMessage());
+                }
+
+                //再记录表中添加一条数据
+                
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        $this->view->assign('groupList', build_select('row[adminid]', \app\admin\model\Admin::column('username,nickname'), 0, ['class' => 'form-control tds']));
+        $this->view->assign("order",$order);
+        $this->view->assign("user",$user);
+        $this->view->assign("record",$record);
+        $username=Cookie::get('username');
+        $rs=model("Admin")->where("username",$username)->find();
+        $truename=$rs["nickname"];
+        $this->view->assign("truename",$truename);
+        return $this->view->fetch();
+    }
+
+    public function exportWord(){
+        $id = $this->request->get("id/d");
+         //获取记录
+         $record=model("UserRecords")->get($id);
+         //订单客户信息信息
+         $order = $this->model->where("orderid",$record["orderid"])->find();
+         //获取客户信息
+         $user=model("user")->where("username",$record["username"])->find();
+        //写word
+        echo '
+        <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <xml><w:WordDocument><w:View>Print</w:View></xml>
+        </head>';
+        echo '<body>
+        <h1 style="text-align: center">个人信息表</h1>
+        <h3>编号：000001</h3>
+        <table class="table table-striped custom" border="1" cellpadding="3" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td><strong>姓名</strong></td><td><span class="info">'.$user["nickname"].'</span></td>
+                    <td><strong>身份证号</strong></td><td><span class="info">'.$user["idcard"].'</span></td>
+                    <td><strong>年龄</strong></td><td><span class="info">'.$user["age"].'</span> <strong>性别</strong></td><td><span class="info">'.$user["sex"].'</span></td>
+                </tr>
+                <tr>
+                    <td><strong>手机号</strong></td><td><span class="info">'.$user["mobile"].'</span></td>
+                    <td><strong>服务卡号</strong></td><td><span class="info">123456789</span></td>
+                    <td><strong>生日</strong></td><td><span class="info">'.$user["birthday"].'</span></td>
+                </tr>
+                <tr>
+                    <td><strong>客源</strong></td><td><span class="info">app订购</span></td>
+                    <td><strong>三级机构</strong></td><td><span class="info">'.$user["city"].'</span></td>
+                    <td><strong>四级机构</strong></td><td><span class="info">'.$user["region"].'</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <table  border="1" cellpadding="3" cellspacing="0">
+            <tbody>
+            <tr>
+                <td><strong>医生</strong></td>
+                <td>
+                    <div class="form-group">
+                        '.$order["doctor"].'
+                    </div>
+                </td>
+                <td><strong>科室</strong></td>
+                <td>
+                    <div class="form-group">
+                        '.$order["section"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>就诊总时间</strong></td>
+                <td>
+                    <div class="form-group">
+                        '.$record["treatmenttimes"].'
+                    </div>
+                </td>
+                <td><strong>医生看诊时长</strong></td>
+                <td>
+                    <div class="form-group">
+                        '.$record["diagnosetimes"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>患者是否同意下一步的检查</strong></td>
+                <td colspan="3">
+                    <div class="form-group">
+                        '.$record["nextcheck"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3"><strong>检查</strong></td>
+                <td><strong>检查项目</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["checkproject"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>取结果方式</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["checkresult"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>备注</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["remark"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><strong>看诊</strong></td>
+                <td><strong>疾病诊断</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["diagnosis"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>医生建议（治疗方案）</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["diagnoseadvice"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3"><strong>取药</strong></td>
+                <td><strong>药物名称及用法</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["medicines"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>取药方式</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["medicineget"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>注意事项</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["medicineadvice"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><strong>住院</strong></td>
+                <td><strong>患者意见</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["hospitaladvice"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>住院号</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                       '.$record["hospitalnum"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td ><strong>复查</strong></td>
+                <td colspan="3">
+                    <div class="form-group">
+                       '.$record["nextcheck"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td ><strong>备注</strong></td>
+                <td colspan="3">
+                    <div class="form-group">
+                        '.$record["remark"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td  rowspan="2"><strong>对医生评价</strong></td>
+                <td><strong>陪诊人员</strong></td>
+                <td colspan="2">
+                    <div class="form-group">
+                        '.$record["appraiseadmin"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>患者及家属</strong></td>
+                <td colspan="3">
+                    <div class="form-group">
+                        '.$record["appraisecustom"].'
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>陪诊人员</strong></td>
+                <td colspan="3">
+                    <div class="form-group">
+                        '.$record["admins"].'
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        </body>';
+        ob_start(); //打开缓冲区
+        header("Cache-Control: public");
+        Header("Content-type: application/octet-stream");
+        Header("Accept-Ranges: bytes");
+        if (strpos($_SERVER["HTTP_USER_AGENT"],'MSIE')) {
+        header('Content-Disposition: attachment; filename=test.doc');
+        }else if (strpos($_SERVER["HTTP_USER_AGENT"],'Firefox')) {
+        Header('Content-Disposition: attachment; filename=test.doc');
+        } else {
+        header('Content-Disposition: attachment; filename=test.doc');
+        }
+        header("Pragma:no-cache");
+        header("Expires:0");
+        ob_end_flush();//输出全部内容到浏览器
+    }
+
+
+    //查询这个这个人的订单
+    public function query($ids){
+        //查询这个用户的账号
+        $user=\app\admin\model\User::where("id",$ids)->find();
+        
+        $userid=$user["username"];
+        $truename=$user["nickname"];
+        //查询客服接单的页面
+
+        //查询这个人的记录
+        $order = $this->model->where("userid",$userid)->order("createtime desc")->find();
+
+        if(!empty($order)){
+            $order["createtime"]=date('Y-m-d H:i:s', $order["createtime"]);
+        }
+        if ($this->request->isPost())
+        {
+            //订单是否存在
+            $isexists=$this->request->post("isexists");
+
+            if(empty($order)){
+                //添加订单
+                $result=UserOrder::addUserOrder($userid,0,0,array(),$user["phone"],$truename,"");
+                $orderid=$result["orderid"];
+            }
+
+
+        }
+       
+        //获取记录
+        $record=model("UserRecords")->where("orderid",$order["orderid"])->find();
+        if ($this->request->isPost())
+        {
+            $params = $this->request->post("order/a");
+            $records = $this->request->post("record/a");
+            $records["username"]=$user["username"];
+            $records["orderid"]=empty($order)?$orderid:$order["orderid"];
+            $record["createtime"]=time();
+            $recordid=$this->request->post("recordid");
+            if ($params)
+            {
+                try
+                {
+                    //是否采用模型验证
+                    $params["isread"]=1;
+                    $result = $this->model->where("id",$order["id"])->save($params);
+                    //recods修改
+                    if($recordid){
+                        $res=model("UserRecords")->where("id",$recordid)->update($records);
+                    }else{
+                        $res=model("UserRecords")->save($records);
+                    }
+                    if ($result !== false && $res !== false)
+                    {
+                        $this->success();
+                    }
+                    else
+                    {
+                        $this->error($order->getError());
+                    }
+                }
+                catch (\think\exception\PDOException $e)
+                {
+                    $this->error($e->getMessage());
+                }
+
+                //再记录表中添加一条数据
+                
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        $this->view->assign('secondList', build_select('row[adminid]', \app\admin\model\Admin::column('username,nickname'), 0, ['class' => 'form-control tds']));
+        $this->view->assign("order",$order);
+        $this->view->assign("user",$user);
+        $this->view->assign("recordid",(empty($record)?"0":$record["id"]));
+        $this->view->assign("truename",$truename);
+        $this->view->assign('firstList', build_select('row[adminid]', \app\admin\model\Admin::column('username,nickname'), 0, ['class' => 'form-control tds']));
+        $this->view->assign("record",$record);
+        $this->view->assign("isexists",empty($order)?0:1);
+        return $this->view->fetch();
+    }
+
+
+    //获取用户订单信息
+    public function getUnreadOrderList(){
+        header('Access-Control-Allow-Origin:*');  
+        header('Access-Control-Allow-Methods:GET, POST, OPTIONS');
+        $callback=$this->request->get("callback");
+        $rs=$this->model->where("isread",0)->select();
+        $ret["new"]=count($rs);
+        $ret["newslist"]=$rs;
+        echo $callback, '(', json_encode($ret), ')';
+    }
+
+}
+

@@ -1,0 +1,455 @@
+  <style>
+    .table tbody tr td{
+            vertical-align: middle;
+            text-align:center;
+        }
+    .custom tbody tr td{
+        vertical-align: middle;
+        text-align:left;
+        width:20%;
+    }
+    .info{
+        margin-left:12px;
+    }
+    .tds{
+        width:95% !important;;
+    }
+</style>
+<div style="margin-bottom:15px">
+    <div style="font-size:20px;">个人基本信息</div>
+    <div>
+        <div class="col-sm-12">
+            <div class="col-sm-2"><strong>姓名</strong>:{$user.nickname}</div>
+            <div class="col-sm-2"><strong>性别</strong>:{$user.gender==0?'女':'男'}</div>
+            <div class="col-sm-4"><strong>手机号</strong>:{$user.mobile}</div>
+            
+            <div class="col-sm-3"><strong>地区</strong>:{$user.city}市{$user.region}县</div>
+        </div>
+        <div class="col-sm-12">
+                <div class="col-sm-2"><strong>年龄</strong>:{$user.age}</div>
+                <div class="col-sm-2"><strong>金额</strong>:app订购</div>
+            <div class="col-sm-4"><strong>身份证</strong>:{$user.idcard}</div>
+            <div class="col-sm-3"><strong>方式</strong>:app订购</div>
+        </div>
+    </div>
+    <div style="margin-top:15px;font-size:20px;">个人服务卡信息</div>
+    <div>
+        {volist name="card" id="vo" }
+            <div class="col-sm-12">
+                <div class="col-sm-3"><strong>服务卡</strong>:{$vo.cardnum}</div>
+                <div class="col-sm-3"><strong>卡类型</strong>:{$vo.card.cardtype}</div>
+                <div class="col-sm-4"><strong>截至时间</strong>:{$vo.card.endtime|date='Y-m-d H:i:s',###}</div>
+            </div>
+        {/volist}
+    </div>
+</div>
+<!-- 选项卡 -->
+<ul class="nav nav-tabs" role="tablist">
+    <!-- 默认标签 -->
+    <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">接诊信息</a></li>
+    <li role="presentation"><a href="#reset" role="tab" data-toggle="tab">诊前确认信息</a></li>
+    <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">就诊详情</a></li>
+    <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">客户回访</a></li>
+</ul>
+    
+<!-- 选项卡内容 -->
+<div class="tab-content" style="margin-top:20px;">
+    <!-- 默认显示内容 -->
+    <div role="tabpanel" class="tab-pane active row" id="home">
+        <form class="form-horizontal" method="POST" action="../../kfcheck">
+            <input name="username" value="{$user.username}" type="hidden" />
+            <input name="order[id]" value="{$order.id}" type="hidden" />
+            <div class="form-group">
+                <label class="col-sm-2 control-label">客户现状</label>
+                <div class="col-sm-10">
+                    <textarea rows="5" cols="80" name="order[customdetail]">{$order.customdetail}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">期望就诊医院</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="order[expecthospitaltype]" onchange='var value=$(this).val();if(value == "医联推荐"){$(this).parents(".form-group").find("input").attr("date-rule","");$(this).parents(".form-group").find("input").attr("type","hidden");}else{$(this).parents(".form-group").find("input").attr("date-rule","require");$(this).parents(".form-group").find("input").attr("type","text");}'>
+                            <option value="客户指定" {if condition="$order.expecthospitaltype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.expecthospitaltype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[expecthospital]" class="form-control inline" placeholder="医院" value="{$order.expecthospital}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">期望就诊医生</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control"  name="order[expectdoctortype]" onchange='var value=$(this).val();if(value == "医联推荐"){$(this).parents(".form-group").find("input").attr("date-rule","");$(this).parents(".form-group").find("input").attr("type","hidden");}else{$(this).parents(".form-group").find("input").attr("date-rule","require");$(this).parents(".form-group").find("input").attr("type","text");}'>
+                            <option value="客户指定" {if condition="$order.expectdoctortype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.expectdoctortype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[expectdoctor]" class="form-control inline" placeholder="医生" value="{$order.expectdoctor}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">期望就诊时间</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="order[expecttimetype]" onchange='var value=$(this).val();if(value == "医联推荐"){$(this).parents(".form-group").find("input").attr("date-rule","");$(this).parents(".form-group").find("input").attr("type","hidden");}else{$(this).parents(".form-group").find("input").attr("date-rule","require");$(this).parents(".form-group").find("input").attr("type","text");}'>
+                            <option value="客户指定" {if condition="$order.expecttimetype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.expecttimetype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[expecttime]" class="form-control inline" placeholder="时间" value="{$order.expecttime}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">具体服务需求</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-10">
+                        {volist name="groupdata" id="vo"}
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="customserver[]" value="{$vo}" {in name="key" value="$order['customserver']"}checked{/in}>{$vo}
+                            </label>
+                        {/volist}
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">备注</label>
+                <div class="col-sm-10">
+                    <textarea rows="5" cols="80" name="order[customremark]">{$order.customremark}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">受理客服</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control inline" value="{$order.kfdoperson}" name="order[kfdoperson]" disabled/>
+                </div>
+                <label class="col-sm-1 control-label">发送时间</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control inline" value="{$order.kfsendtime|date='Y-m-d H:i:s',###}" name="order[kfsendtime]" disabled/>
+                </div>
+                <label class="col-sm-1 control-label">发送给</label>
+                <div class="col-sm-2">
+                    {$firstList}
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+                    <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="reset">
+        <form class="form-horizontal" method="post" action="../../diagnosisconfirm">
+                <input name="order[id]" value="{$order.id}" type="hidden" />
+            <div class="form-group">
+                <label class="col-sm-2 control-label">预约就诊医院</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control"  name="order[appointhospitaltype]">
+                            <option value="客户指定" {if condition="$order.appointhospitaltype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.appointhospitaltype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[appointhospital]"  class="form-control inline" placeholder="医院*" value="{$order.appointhospital}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">预约就诊科室</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="order[appointsectiontype]">
+                            <option value="客户指定" {if condition="$order.appointsectiontype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.appointsectiontype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[appointsection]" class="form-control inline" placeholder="科室*" value="{$order.appointsection}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">预约就诊医生</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="order[appointdoctortype]">
+                            <option value="客户指定" {if condition="$order.appointdoctortype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.appointdoctortype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[appointdoctor]" class="form-control inline" placeholder="医生*" value="{$order.appointdoctor}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">预约就诊时间</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="order[appointtimetype]">
+                            <option value="客户指定" {if condition="$order.appointtimetype eq '客户指定'"}selected="selected"{/if}>客户指定</option>
+                            <option value="医联推荐" {if condition="$order.appointtimetype eq '医联推荐'"}selected="selected"{/if}>医联推荐</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="order[appointtime]" class="form-control inline" placeholder="时间*" value="{$order.appointtime}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">备注</label>
+                <div class="col-sm-10">
+                    <textarea rows="5" cols="80" name="order[appointremark]">{$order.appointremark}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">接诊人员</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control inline" value="{$order.kfsendperson}" disabled/>
+                </div>
+                <label class="col-sm-2 control-label">确认时间</label>
+                <div class="col-sm-2">
+                    {if condition="$order['appointsendtime'] eq ''"}
+                        <input type="text" class="form-control inline" value="" name="order[appointsendtime]" disabled/>
+                    {else /}
+                        <input type="text" class="form-control inline" value="{$order.appointsendtime|date='Y-m-d H:i:s',###}" name="order[appointsendtime]" disabled/>
+                    {/if}
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+                    <button type="reset" class="btn btn-default btn-embossed" onclick="javascript:window.location.href='../../../../order/order/exportComfirmExcel?id={$order.id}';">{:__('Reset')}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+        <form class="form-horizontal"  method="post" action="../../diagnosis">
+                <input name="order[id]" value="{$order.id}" type="hidden" />
+            <div class="form-group">
+                <p class="text-center"><strong style="font-size: 20px;">看诊</strong></p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">就诊总时间</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control inline"  placeholder="就诊总时间" name="order[diagnosistotaltime]" value="{$order.diagnosistotaltime}"/>
+                        </div>
+                        <label class="col-sm-2 control-label">看诊时长</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control inline"  placeholder="看诊时长" name="order[diagnosistime]" value="{$order.diagnosistime}"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">疾病诊断</label>
+                        <div class="col-sm-10">
+                            <textarea rows="3" cols="80"   name="order[diagnosisdisease]" >{$order.diagnosisdisease}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">医生建议（治疗方案）</label>
+                        <div class="col-sm-10">
+                            <textarea rows="3" cols="80"   name="order[diagnosisadvice]" >{$order.diagnosisadvice}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center"><strong style="font-size: 20px;">检查</strong></p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">检查项目</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosischeck]" >{$order.diagnosischeck}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">取结果方式</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" name="order[diagnosischeckresult]" >
+                                <option value="接诊人员代取" {if condition="$order.appointhospitaltype eq '接诊人员代取'"}selected="selected"{/if}>接诊人员代取</option>
+                                <option value="客户自取" {if condition="$order.appointhospitaltype eq '客户自取'"}selected="selected"{/if}>客户自取</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">报告上传</label>
+                        <div class="col-xs-12 col-sm-8">
+                            <div class="input-group">
+                                <input id="c-avatar" data-rule="" class="form-control" size="50" name="order[diagnosisreport]" type="text" value="">
+                                <div class="input-group-addon no-border no-padding">
+                                    <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                                </div>
+                                <span class="msg-box n-right" for="c-avatar"></span>
+                            </div>
+                            <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">备注</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosischeckremark]" >{$order.diagnosischeckremark}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center"><strong style="font-size: 20px;">药物</strong></p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">药物名称及用法</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosismedicine]" >{$order.diagnosismedicine}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">取药方式</label>
+                        <div class="col-sm-10">
+                                <select class="form-control" name="order[diagnosismedicineresult]" >
+                                    <option value="接诊人员代取" {if condition="$order.diagnosismedicineresult eq '接诊人员代取'"}selected="selected"{/if}>接诊人员代取</option>
+                                    <option value="客户自取" {if condition="$order.diagnosismedicineresult eq '客户自取'"}selected="selected"{/if}>客户自取</option>
+                                </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">注意事项</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosismedicineremark]" >{$order.diagnosismedicineremark}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center"><strong style="font-size: 20px;">住院</strong></p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">住院号</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="order[diagnosishospitalnum]"  class="form-control inline" value="{$order.diagnosishospitalnum}" placeholder="住院号" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">复查项目/时间</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosisreview]" >{$order.diagnosisreview}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p class="text-center"><strong style="font-size: 20px;">评价</strong></p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">客户/家属对医生评价</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosiscustomappra]" >{$order.diagnosiscustomappra}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">接诊人员对医生评价</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="80"   name="order[diagnosispersonappra]" >{$order.diagnosispersonappra}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">接诊人员</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control inline" id="server" value="{$order.appointsendperson}" name="order[appointsendperson]" disabled/>
+                </div>
+                <label class="col-sm-2 control-label">填写时间</label>
+                <div class="col-sm-3">
+                    {if condition="$order['diagnosisaddtime'] eq ''"}
+                        <input type="text" class="form-control inline" id="sendtime" value="" name="order[diagnosisaddtime]" disabled/>
+                    {else /}
+                        <input type="text" class="form-control inline" id="sendtime" value="{$order.diagnosisaddtime|date='Y-m-d H:i:s',###}" name="order[diagnosisaddtime]" disabled/>
+                    {/if}
+                </div>
+            </div>
+            <div class="form-group">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-12 col-sm-8">
+                        <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+                        <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+                    </div>
+                </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+        <form class="form-horizontal"  method="post" action="../../visit">
+                <input name="order[id]" value="{$order.id}" type="hidden" />
+                <div class="form-group">
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">医生服务态度</label>
+                        <div class="col-sm-3">
+                            <select class="form-control" name="order[visitdoctorattitude]" data-rule="required"  >           
+                                <option value="满意" {if condition="$order.visitdoctorattitude eq '满意'"}selected="selected"{/if}>满意</option>
+                                <option value="不满意" {if condition="$order.visitdoctorattitude eq '不满意'"}selected="selected"{/if}>不满意</option>
+                            </select>
+                        </div>
+                        <label class="col-sm-3 control-label">接诊人员的服务态度</label>
+                        <div class="col-sm-3">
+                            <select class="form-control" name="order[visitpersonattitude]" data-rule="required"  >
+                                <option value="满意" {if condition="$order.visitpersonattitude eq '满意'"}selected="selected"{/if}>满意</option>
+                                <option value="不满意" {if condition="$order.visitpersonattitude eq '不满意'"}selected="selected"{/if}>不满意</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">医生医技水平</label>
+                        <div class="col-sm-3">
+                            <select class="form-control" name="order[visitdoctorskill]" data-rule="required"  >
+                                <option value="满意" {if condition="$order.visitdoctorskill eq '满意'"}selected="selected"{/if}>满意</option>
+                                <option value="不满意" {if condition="$order.visitdoctorskill eq '不满意'"}selected="selected"{/if}>不满意</option>
+                            </select>
+                        </div>
+                        <label class="col-sm-3 control-label">接诊人员的执业素质</label>
+                        <div class="col-sm-3">
+                            <select class="form-control" name="order[visitpersonquality]" data-rule="required"  >           
+                                <option value="满意" {if condition="$order.visitpersonquality eq '满意'"}selected="selected"{/if}>满意</option>
+                                <option value="不满意" {if condition="$order.visitpersonquality eq '不满意'"}selected="selected"{/if}>不满意</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">客户意见</label>
+                        <div class="col-sm-7">
+                            <textarea rows="10" cols="80" data-rule="required"  name="order[visitcustomadvice]" >{$order.visitcustomadvice}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-12 col-sm-8">
+                                <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+                                <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

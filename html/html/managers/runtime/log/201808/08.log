@@ -1,0 +1,856 @@
+---------------------------------------------------------------
+[ 2018-08-08T09:32:47+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/index/login
+[ info ] www.hnumg.cn/managers/public/index.php/admin/index/login [运行时间：0.008252s][吞吐率：121.18req/s] [内存消耗：676.77kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000733s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=70084886.140876482021360430.1528449058784.0786',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /usr/share/nginx/html/managers/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000052s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T09:32:51+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1533691967
+[ info ] www.hnumg.cn/managers/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1533691967 [运行时间：0.006448s][吞吐率：155.09req/s] [内存消耗：671.48kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000659s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; monitor_count=1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1533691967',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000203s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /usr/share/nginx/html/managers/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000050s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T09:33:01+08:00 ] 1.192.5.64 POST /managers/public/index.php/admin/index/login
+[ info ] www.hnumg.cn/managers/public/index.php/admin/index/login [运行时间：0.017587s][吞吐率：56.86req/s] [内存消耗：976.83kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000721s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '73',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; __guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'fbca849c2de05ca366d6b13d925681af',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000241s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /usr/share/nginx/html/managers/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004046s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1533691981,`token`='46f8ad22-6bd0-4b12-9d87-c539d6462b4a',`updatetime`=1533691981  WHERE  `id` = 1 [ RunTime:0.002554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"fbca849c2de05ca366d6b13d925681af\",\"username\":\"admin\"}' , '/managers/public/index.php/admin/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '1.192.5.64' , 1533691981) [ RunTime:0.002129s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:33:02+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/index/index
+[ info ] www.hnumg.cn/managers/public/index.php/admin/index/index [运行时间：0.501226s][吞吐率：2.00req/s] [内存消耗：1,286.52kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000590s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; __guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; monitor_count=1; username=admin',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000228s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /usr/share/nginx/html/managers/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000055s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:33:02+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1533691981
+[ info ] www.hnumg.cn/managers/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1533691981 [运行时间：0.006227s][吞吐率：160.59req/s] [内存消耗：673.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000676s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; username=admin; monitor_count=2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1533691981',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000196s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /usr/share/nginx/html/managers/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000046s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T09:33:02+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/dashboard?addtabs=1
+[ info ] www.hnumg.cn/managers/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.013633s][吞吐率：73.35req/s] [内存消耗：1,122.65kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000604s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; username=admin; monitor_count=2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000211s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /usr/share/nginx/html/managers/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000045s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:33:03+08:00 ] 1.192.5.64 GET /managers/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1533691982
+[ info ] www.hnumg.cn/managers/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1533691982 [运行时间：0.006336s][吞吐率：157.83req/s] [内存消耗：673.24kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; __guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; username=admin; monitor_count=2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1533691982',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000207s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /usr/share/nginx/html/managers/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000046s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T09:33:07+08:00 ] 1.192.5.64 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327 [运行时间：0.040349s][吞吐率：24.78req/s] [内存消耗：1,186.47kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000697s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; __guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; username=admin; monitor_count=2',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22405975838253636117_1533691979327',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000226s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004806s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22405975838253636117_1533691979327\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '1.192.5.64' , 1533691987) [ RunTime:0.002949s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:33:12+08:00 ] 1.192.5.64 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327 [运行时间：0.045369s][吞吐率：22.04req/s] [内存消耗：1,186.47kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000693s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; __guid=70084886.140876482021360430.1528449058784.0786; PHPSESSID=cvtmjtscnngvfq3qvdflto7u54; username=admin; monitor_count=2',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22405975838253636117_1533691979327',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000274s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.009698s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22405975838253636117_1533691979327\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22405975838253636117_1533691979327' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '1.192.5.64' , 1533691992) [ RunTime:0.007816s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:53:52+08:00 ] 1.192.5.64 GET /managers/public/index.php/api/user/getMenuList
+[ info ] www.hnumg.cn/managers/public/index.php/api/user/getMenuList [运行时间：0.008796s][吞吐率：113.69req/s] [内存消耗：810.65kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000688s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getMenuList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000220s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->getMenuList[ /usr/share/nginx/html/managers/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,name as url,`title`,`ismenu`,`icon`,remark as desp FROM `fa_user_rule` WHERE  `status` = 'normal'  AND `id` IN (9,10,12,13,15,16,17,18,19,20,21,22,23,24,25) ORDER BY `weigh` DESC,`id` [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:53:56+08:00 ] 1.192.5.64 POST /managers/public/index.php/api/products/getAllCataAndProducts
+[ info ] www.hnumg.cn/managers/public/index.php/api/products/getAllCataAndProducts [运行时间：0.013856s][吞吐率：72.17req/s] [内存消耗：880.13kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000705s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'products',
+    2 => 'getAllCataAndProducts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000266s ]
+[ info ] [ RUN ] app\api\controller\Products->getAllCataAndProducts[ /usr/share/nginx/html/managers/application/api/controller/Products.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_catagloy` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_catagloy` ORDER BY `weigh` DESC [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `cataid` IN (5,4,3,2) [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2018-08-08T09:54:00+08:00 ] 1.192.5.64 GET /managers/public/index.php/api/products/getProductById?id=28
+[ info ] www.hnumg.cn/managers/public/index.php/api/products/getProductById?id=28 [运行时间：0.010781s][吞吐率：92.76req/s] [内存消耗：865.43kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000690s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'products',
+    2 => 'getProductById',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '28',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000213s ]
+[ info ] [ RUN ] app\api\controller\Products->getProductById[ /usr/share/nginx/html/managers/application/api/controller/Products.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_info` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_info` WHERE  `productid` = 28 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-08-08T10:14:16+08:00 ] 220.181.132.200 GET /managers/public/index.php/admin/dashboard?addtabs=1
+[ info ] www.hnumg.cn/managers/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.007512s][吞吐率：133.12req/s] [内存消耗：566.41kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000710s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000214s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000055s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T10:14:39+08:00 ] 220.181.132.200 GET /managers/public/index.php/admin/index/login?url=%2Fmanagers%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Faddtabs%3D1
+[ info ] www.hnumg.cn/managers/public/index.php/admin/index/login?url=%2Fmanagers%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Faddtabs%3D1 [运行时间：0.007439s][吞吐率：134.42req/s] [内存消耗：618.62kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000702s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=m8pa9inls29qr72fsnga2o7dc7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/managers/public/index.php/admin/dashboard?addtabs=1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000217s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ /usr/share/nginx/html/managers/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000060s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T10:26:12+08:00 ] 101.199.110.112 GET /managers/public/index.php/admin/index/login
+[ info ] www.hnumg.cn/managers/public/index.php/admin/index/login [运行时间：0.008441s][吞吐率：118.47req/s] [内存消耗：676.00kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000701s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000226s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /usr/share/nginx/html/managers/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /usr/share/nginx/html/managers/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000057s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-08T17:08:12+08:00 ] 1.192.19.9 GET /managers/public/index.php/api/user/getMenuList
+[ info ] www.hnumg.cn/managers/public/index.php/api/user/getMenuList [运行时间：0.009074s][吞吐率：110.21req/s] [内存消耗：810.65kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000765s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getMenuList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000226s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->getMenuList[ /usr/share/nginx/html/managers/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,name as url,`title`,`ismenu`,`icon`,remark as desp FROM `fa_user_rule` WHERE  `status` = 'normal'  AND `id` IN (9,10,12,13,15,16,17,18,19,20,21,22,23,24,25) ORDER BY `weigh` DESC,`id` [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2018-08-08T17:08:13+08:00 ] 1.192.19.9 POST /managers/public/index.php/api/products/getAllCataAndProducts
+[ info ] www.hnumg.cn/managers/public/index.php/api/products/getAllCataAndProducts [运行时间：0.013364s][吞吐率：74.83req/s] [内存消耗：880.12kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000655s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'products',
+    2 => 'getAllCataAndProducts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000254s ]
+[ info ] [ RUN ] app\api\controller\Products->getAllCataAndProducts[ /usr/share/nginx/html/managers/application/api/controller/Products.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_catagloy` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_catagloy` ORDER BY `weigh` DESC [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `cataid` IN (5,4,3,2) [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-08-08T17:08:17+08:00 ] 1.192.19.9 GET /managers/public/index.php/api/products/getProductById?id=35
+[ info ] www.hnumg.cn/managers/public/index.php/api/products/getProductById?id=35 [运行时间：0.011133s][吞吐率：89.82req/s] [内存消耗：865.41kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000706s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'products',
+    2 => 'getProductById',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000208s ]
+[ info ] [ RUN ] app\api\controller\Products->getProductById[ /usr/share/nginx/html/managers/application/api/controller/Products.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_info` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_info` WHERE  `productid` = 35 [ RunTime:0.000352s ]

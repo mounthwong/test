@@ -1,0 +1,52 @@
+<div class="panel panel-default panel-intro">
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="one">
+                <div class="widget-body no-padding">
+                    <div id="toolbar" class="toolbar">
+                        <div id="toolbar" class="toolbar">
+                            <a href="javascript:window.location.reload();" class="btn btn-primary btn-refresh" title="刷新"><i class="fa fa-refresh"></i> </a> 
+                            <a href="/managers/public/admin/order/process/add?ids={$ids}" class="btn btn-success btn-dialog" title="添加"><i class="fa fa-plus"></i> 添加</a>                        
+                        </div>
+                        <div id="toolbar" class="toolbar">
+                            客户名称:<b>{$order.truename}</b>客户电话:<b>{$order.phone}</b> 客户订购产品:<b>{$product.productname} {$product.name}</b> 产品价格:<b>{$product.price} </b>              
+                        </div>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th width="10%">分配</th>
+                                <th width="10%">电话</th>
+                                <th width="10%">分配给</th>
+                                <th width="10%">电话</th>
+                                <th width="25%">开始时间</th>
+                                <th width="25%">结束时间</th>
+                                <th width="25%">提交时间</th>
+                                <th width="">备注</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {foreach $list as $item}
+                            <tr>
+                                <td>{$item.admininfo.nickname}</td>
+                                <td>{$item.admininfo.phone}</td>
+                                <td>{$item.touserinfo.nickname}</td>
+                                <td>{$item.touserinfo.phone}</td>
+                                <td>{$item.begintime}</td>
+                                <td>{$item.endtime}</td>
+                                <td>{$item.addtime}</td>
+                                <td>{$item.remark}</td>
+                                <td>
+                                    <a href="/managers/public/admin/order/process/edit?ids={$item.id}" class="btn btn-success btn-dialog" title="编辑">编辑</a>  
+                                </td>
+                            </tr>
+                            {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

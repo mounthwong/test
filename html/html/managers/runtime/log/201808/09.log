@@ -1,0 +1,217 @@
+---------------------------------------------------------------
+[ 2018-08-09T16:32:03+08:00 ] 1.192.66.66 GET /managers/public/index.php/api/user/getMenuList
+[ info ] www.hnumg.cn/managers/public/index.php/api/user/getMenuList [运行时间：0.008625s][吞吐率：115.94req/s] [内存消耗：810.64kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000727s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getMenuList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000214s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->getMenuList[ /usr/share/nginx/html/managers/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,name as url,`title`,`ismenu`,`icon`,remark as desp FROM `fa_user_rule` WHERE  `status` = 'normal'  AND `id` IN (9,10,12,13,15,16,17,18,19,20,21,22,23,24,25) ORDER BY `weigh` DESC,`id` [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-08-09T16:32:06+08:00 ] 1.192.66.66 GET /managers/public/index.php/api/user/getMenuList
+[ info ] www.hnumg.cn/managers/public/index.php/api/user/getMenuList [运行时间：0.008675s][吞吐率：115.27req/s] [内存消耗：810.65kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000695s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getMenuList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000209s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->getMenuList[ /usr/share/nginx/html/managers/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,name as url,`title`,`ismenu`,`icon`,remark as desp FROM `fa_user_rule` WHERE  `status` = 'normal'  AND `id` IN (9,10,12,13,15,16,17,18,19,20,21,22,23,24,25) ORDER BY `weigh` DESC,`id` [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2018-08-09T16:32:11+08:00 ] 1.192.66.66 GET /managers/public/index.php/api/information/getMessageList?apptype=1&childtype=0&offset=0&num=10
+[ info ] www.hnumg.cn/managers/public/index.php/api/information/getMessageList?apptype=1&childtype=0&offset=0&num=10 [运行时间：0.010299s][吞吐率：97.10req/s] [内存消耗：814.63kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000681s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'information',
+    2 => 'getMessageList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'apptype' => '1',
+  'childtype' => '0',
+  'offset' => '0',
+  'num' => '10',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000208s ]
+[ info ] [ RUN ] app\api\controller\Information->getMessageList[ /usr/share/nginx/html/managers/application/api/controller/Information.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_information` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_information` WHERE  `type` = 1 ORDER BY `createtime` DESC LIMIT 0,10 [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2018-08-09T16:32:13+08:00 ] 1.192.66.66 GET /managers/public/index.php/api/user/getMenuList
+[ info ] www.hnumg.cn/managers/public/index.php/api/user/getMenuList [运行时间：0.008255s][吞吐率：121.14req/s] [内存消耗：810.65kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000633s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getMenuList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000234s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->getMenuList[ /usr/share/nginx/html/managers/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,name as url,`title`,`ismenu`,`icon`,remark as desp FROM `fa_user_rule` WHERE  `status` = 'normal'  AND `id` IN (9,10,12,13,15,16,17,18,19,20,21,22,23,24,25) ORDER BY `weigh` DESC,`id` [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-08-09T16:32:15+08:00 ] 1.192.66.66 GET /managers/public/index.php/api/information/getMessageList?apptype=0&childtype=1&offset=0&num=10
+[ info ] www.hnumg.cn/managers/public/index.php/api/information/getMessageList?apptype=0&childtype=1&offset=0&num=10 [运行时间：0.010178s][吞吐率：98.25req/s] [内存消耗：800.38kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'information',
+    2 => 'getMessageList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'apptype' => '0',
+  'childtype' => '1',
+  'offset' => '0',
+  'num' => '10',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000193s ]
+[ info ] [ RUN ] app\api\controller\Information->getMessageList[ /usr/share/nginx/html/managers/application/api/controller/Information.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_information` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_information` WHERE  `type` = 0  AND `cataglory` = 1 ORDER BY `createtime` DESC LIMIT 0,10 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2018-08-09T16:32:28+08:00 ] 1.192.66.66 POST /managers/public/index.php/api/products/getAllCataAndProducts
+[ info ] www.hnumg.cn/managers/public/index.php/api/products/getAllCataAndProducts [运行时间：0.013329s][吞吐率：75.03req/s] [内存消耗：880.13kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000688s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'products',
+    2 => 'getAllCataAndProducts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+  'host' => 'www.hnumg.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.9.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000257s ]
+[ info ] [ RUN ] app\api\controller\Products->getAllCataAndProducts[ /usr/share/nginx/html/managers/application/api/controller/Products.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_catagloy` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_catagloy` ORDER BY `weigh` DESC [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `cataid` IN (5,4,3,2) [ RunTime:0.000408s ]

@@ -1,0 +1,330 @@
+<style>
+    .table tbody tr td{
+            vertical-align: middle;
+            text-align:center;
+            border: 1px solid #000 !important;
+        }
+
+        .table tbody tr td textarea{
+            width:95%;
+        }
+
+         .table tbody tr td input{
+            width:95%;
+        }
+
+        .tds{
+            width:95% !important;;
+        }
+    .edittable tbody tr td{
+        vertical-align: middle;
+        text-align:center;
+        border: 1px solid #000 !important;
+    }
+    .custom tbody tr td{
+        vertical-align: middle;
+        text-align:left;
+        width:20%;
+    }
+    .info{
+        margin-left:12px;
+    }
+    .tds{
+        width:95% !important;;
+    }
+</style>
+<div>
+    <div style="margin-bottom:15px;font-size:20px;">个人基本信息</div>
+    <div>
+        <table class="table table-striped custom">
+            <tbody>
+                <tr>
+                    <td><strong>姓名</strong><span class="info">{$user.nickname}</span></td>
+                    <td><strong>身份证号</strong><span class="info">{$user.idcard}</span></td>
+                    <td><strong>年龄</strong><span class="info">{$user.age}</span> <strong>性别</strong><span class="info">{$user.gender==0?'女':'男'}</span></td>
+                </tr>
+                <tr>
+                    <td><strong>手机号</strong><span class="info">{$user.mobile}</span></td>
+                    <td><strong>服务卡号</strong><span class="info">123456789</span></td>
+                    <td><strong>生日</strong><span class="info">{$user.birthday}</span></td>
+                </tr>
+                <tr>
+                    <td><strong>客源</strong><span class="info">app订购</span></td>
+                    <td><strong>三级机构</strong><span class="info">{$user.city}</span></td>
+                    <td><strong>四级机构</strong><span class="info">{$user.region}</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- 选项卡 -->
+<ul class="nav nav-tabs" role="tablist">
+    <!-- 默认标签 -->
+    <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">客服受理</a></li>
+    <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">病人诊断</a></li>
+    <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">意见反馈</a></li>
+</ul>
+    
+<!-- 选项卡内容 -->
+<div class="tab-content" style="margin-top:20px;">
+    <!-- 默认显示内容 -->
+    <div role="tabpanel" class="tab-pane active row" id="home">
+        <form class="form-horizontal">
+                <div class="form-group">
+                        <label class="col-sm-2 control-label">患者现状</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="order[customdetail]" disabled>
+                                {php}if(count($order)!=1){echo '';}else{echo $order['customdetail'];}{/php}
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">服务需求</label>
+                        <div class="col-sm-10">
+                            <div class="col-sm-4">
+                                <input type="text" name="order[hospital]" class="form-control inline" placeholder="医院" value="{php}if(count($order)!=1){echo '';}else{echo $order['hospital'];}{/php}" disabled/>
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" name="order[doctor]" class="form-control inline" placeholder="医生" value="{php}if(count($order)!=1){echo '';}else{echo $order['doctor'];}{/php}" disabled/>
+                            </div>
+                            <div class="col-sm-4">
+                                <input  data-rule="" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true"  type="text" placeholder="看诊时间" value="{php}if(count($order)!=1){echo '';}else{echo $order['treatmenttime'];}{/php}" name="order[treatmenttime]" disabled/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">联系方式</label>
+                        <div class="col-sm-10">
+                            <div class="col-sm-4">
+                                <input type="text" name="order[truename]]" class="form-control inline" placeholder="联系人" value="{php}if(count($order)!=1){echo '';}else{echo $order['truename'];}{/php}" disabled/>
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" name="order[phone]" class="form-control inline" placeholder="联系电话" value="{php}if(count($order)!=1){echo '';}else{echo $order['phone'];}{/php}" disabled/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">是否付款</label>
+                        <div class="col-sm-10 checkbox inline">
+                                <label class="radio inline">
+                                    <input type="radio" name="ispay" value="1" {if condition="$order.ispay eq '1'"}checked{/if} disabled >
+                                    是
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" name="ispay" value="0" {if condition="$order.ispay eq '0'"}checked{/if} disabled >
+                                    否
+                                </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">备注</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="order[customremark]" disabled >{php}if(count($order)!=1){echo '';}else{echo $order['customremark'];}{/php}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">受理人</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control inline" value="{php}if(count($order)!=1){echo '';}else{echo $order['doperson'];}{/php}" name="order[doperson]" disabled/>
+                        </div>
+                        <label class="col-sm-1 control-label">时间</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control inline" value="{php}if(count($order)!=1){echo '';}else{echo $order['dotime'];}{/php}" name="order[dotime]" disabled/>
+                        </div>
+                        <label class="col-sm-2 control-label">发送给</label>
+                        <div class="col-sm-2">
+                            {$firstList}
+                        </div>
+                    </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+        <form class="form-horizontal ajax" id="edit-form" role="form" data-toggle="validator" method="POST">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">服务需求</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control inline"  placeholder="医生" name="record[doctor]" value="{$record.doctor}"/>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control inline"  placeholder="科室" name="record[section]" value="{$record.section}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">时间</label>
+                <div class="col-sm-10">
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control inline"  placeholder="就诊总时间" name="record[treatmenttimes]" value="{$record.treatmenttimes}"/>
+                    </div>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control inline"  placeholder="看诊时长" name="record[diagnosetimes]" value="{$record.diagnosetimes}"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">患者是否同意下一步的检查</label>
+                <div class="col-sm-10">
+                    <textarea rows="10" cols="100" name="record[nextcheck]">{$record.nextcheck}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center">检查</p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">检查项目</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="record[checkproject]">{$record.checkproject}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >取结果方式</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="record[checkresult]">{$record.checkresult}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">备注</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="100"  name="record[checkremark]">{$record.checkremark}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">报告上传</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="input-group">
+                        <input id="c-avatar" data-rule="" class="form-control" size="50" name="row[pic]" type="text" value="">
+                        <div class="input-group-addon no-border no-padding">
+                            <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                        </div>
+                        <span class="msg-box n-right" for="c-avatar"></span>
+                    </div>
+                    <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center">看诊</p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">疾病诊断</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="record[diagnosis]">{$record.diagnosis}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">医生建议（治疗方案）</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100"  name="record[diagnoseadvice]">{$record.diagnoseadvice}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center">取药</p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">药物名称及用法</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="100" name="record[medicines]">{$record.medicines}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">取药方式</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="100"  name="record[medicineget]">{$record.medicineget}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">注意事项</label>
+                        <div class="col-sm-10">
+                            <textarea rows="5" cols="100"  name="record[medicineadvice]">{$record.medicineadvice}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center">住院</p>
+                <div class="col-sm-10">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">患者意见</label>
+                        <div class="col-sm-10">
+                            <textarea rows="10" cols="100" name="record[custonadvice]">{$record.custonadvice}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">住院号</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control inline" value="{$record.hospitalnum}" name="record[hospitalnum]" placeholder="住院号" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">复查</label>
+                <div class="col-sm-10">
+                    <textarea rows="10" cols="100" name="record[review]">{$record.review}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">备注</label>
+                <div class="col-sm-10">
+                    <textarea rows="10" cols="100" name="record[remark]">{$record.remark}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">受理人</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control inline" id="server" value="{$record.doperson}" disabled/>
+                </div>
+                <label class="col-sm-1 control-label">时间</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control inline" id="sendtime" value="{$record.dotime}" disabled/>
+                </div>
+                <label class="col-sm-2 control-label">发送给</label>
+                <div class="col-sm-2">
+                    {$firstList}
+                </div>
+            </div>
+            <div class="form-group hidden layer-footer">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+                    <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+        <form class="form-horizontal">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label style="margin-left:10px;">对医生评价:</label>
+                    <div class="row">
+                        <div class="col-sm-offset-1">
+                            <div>陪诊人员说:</div>
+                            <textarea style="margin-top: 10px;" rows="10" cols="100" name="record[appraisedoctor]" disabled>{$record.appraisedoctor}</textarea>
+                        </div>
+                        <div class="col-sm-offset-1">
+                            <div>患者及家属说:</div>
+                            <textarea style="margin-top: 10px;" rows="10" cols="100" name="record[appraisecustom]"  disabled>{$record.appraisecustom}</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top:20px;">
+                    <label>对陪诊人员评价:</label>
+                    <div class="row">
+                        <div class="col-sm-offset-1">
+                            <div>患者及家属说:</div>
+                            <textarea style="margin-top: 10px;" rows="10" cols="100" name="record[appraiseadmin]"   disabled>{$record.appraiseadmin}</textarea>
+                        </div>
+                    </div></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</div>

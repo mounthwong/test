@@ -1,0 +1,11 @@
+[ 2018-05-07T17:58:18+08:00 ] ::1 /medicine/word/getpatientlist?batchid=%5B%7B%22id%22%3A%22732413b677d5efad04b1dcb4d7258274%22%7D%2C%7B%22id%22%3A%2269895c830ad72a3188c599e474d417c8%22%7D%2C%7B%22id%22%3A%220a0da998a833b540bb40ce3b0d569112%22%7D%5D&random=0.8409076187282578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `md_patient_medicine` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: batchid E:\PHP\PHPTutorial\WWW\medicine\App\Home\Controller\WordController.class.php 第 307 行.
+SQL: select distinct md_patient_medicine.*,s.medicine_name as name,s.medicine_rate from md_patient_medicine left join (select * from md_medicine where isdel=1) as s on md_patient_medicine.medicine_name=s.medicine_name where patient_batchid in ('732413b677d5efad04b1dcb4d7258274','69895c830ad72a3188c599e474d417c8','0a0da998a833b540bb40ce3b0d569112') order by md_patient_medicine.sheetnum,md_patient_medicine.patient_batchid,md_patient_medicine.id [ RunTime:0.2418s ]
+

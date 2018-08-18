@@ -1,0 +1,317 @@
+<style>
+    .table tbody tr td{
+            vertical-align: middle;
+            text-align:center;
+            border: 1px solid #000 !important;
+        }
+
+        .table tbody tr td textarea{
+            width:95%;
+        }
+
+         .table tbody tr td input{
+            width:95%;
+        }
+
+        .tds{
+            width:95% !important;;
+        }
+        .edittable tbody tr td{
+            vertical-align: middle;
+            text-align:center;
+            border: 1px solid #000 !important;
+        }
+        .custom tbody tr td{
+            vertical-align: middle;
+            text-align:left;
+            width:20%;
+        }
+
+        textarea{
+            width:95% !important;
+        }
+        .info{
+            margin-left:12px;
+        }
+        .tds{
+            width:95% !important;;
+        }
+    </style>
+    
+        <div>
+            <div style="margin-bottom:15px;font-size:20px;">个人基本信息</div>
+            <div>
+                <table class="table table-striped custom">
+                    <tbody>
+                        <tr>
+                            <td><strong>姓名</strong><span class="info">{$user.nickname}</span></td>
+                            <td><strong>身份证号</strong><span class="info">{$user.idcard}</span></td>
+                            <td><strong>年龄</strong><span class="info">{$user.age}</span> <strong>性别</strong><span class="info">{$user.gender==0?'女':'男'}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>手机号</strong><span class="info">{$user.mobile}</span></td>
+                            <td><strong>服务卡号</strong><span class="info">123456789</span></td>
+                            <td><strong>生日</strong><span class="info">{$user.birthday}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>客源</strong><span class="info">app订购</span></td>
+                            <td><strong>三级机构</strong><span class="info">{$user.city}</span></td>
+                            <td><strong>四级机构</strong><span class="info">{$user.region}</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <form id="edit-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+            <div class="form-group">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td style="width:20%;height:100px;font-size:15px;"><strong>患者现状</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="10" name="order[customdetail]">{$order.customdetail}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" style="font-size:15px;"><strong>服务需求</strong></td>
+                            <td  style="width:20%;" ><strong>医院</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <input id="c-hospital" data-rule="required" class="form-control" name="order[hospital]" type="text" value="{$order.hospital}">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><strong>医生</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <input id="c-doctor" data-rule="required" class="form-control" name="order[doctor]" type="text" value="{$order.doctor}">   
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><strong>期望看诊时间</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <input id="c-treatmenttime" data-rule="required" class="form-control" name="order[treatmenttime]" type="text" value="{$order.treatmenttime}">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="height:100px;font-size:15px;"><strong>备注</strong></td>
+                            <td colspan="2">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4"  name="order[customremark]">{$order.customremark}</textarea>
+                                    </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:15px;"><strong>受理人</strong></td>
+                            <td colspan="2" align="left" style="text-align:left;">
+                                    {$truename} {$order.createtime}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:15px;"><strong>发送给</strong></td>
+                            <td colspan="2">
+                                    <div class="form-group">
+                                            {$groupList}
+                                    </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-striped edittable">
+                    <input type="hidden" value="{$record.id}" name="recordid"/>
+                    <tbody>
+                        <tr>
+                            <td><strong>医生</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="order[doctor]">{$order.doctor}</textarea>
+                                </div>
+                            </td>
+                            <td><strong>科室</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="order[section]">{$order.section}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>就诊总时间</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[treatmenttimes]">{$record.treatmenttimes}</textarea>
+                                </div>
+                            </td>
+                            <td><strong>医生看诊时长</strong></td>
+                            <td>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[diagnosetimes]">{$record.diagnosetimes}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>患者是否同意下一步的检查</strong></td>
+                            <td colspan="3">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1"  name="record[nextcheck]">{$record.nextcheck}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>检查</strong></td>
+                            <td><strong>检查项目</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[checkproject]">{$record.checkproject}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>取结果方式</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[checkresult]">{$record.checkresult}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>备注</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[remark]">{$record.remark}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><strong></strong></td>
+                            <td><strong>报告上传</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[nextcheck]"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>看诊</strong></td>
+                            <td><strong>疾病诊断</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[diagnosis]">{$record.diagnosis}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>医生建议（治疗方案）</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[diagnoseadvice]">{$record.diagnoseadvice}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>取药</strong></td>
+                            <td><strong>药物名称及用法</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[medicines]">{$record.medicines}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>取药方式</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[medicineget]">{$record.medicineget}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>注意事项</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[medicineadvice]">{$record.medicineadvice}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>住院</strong></td>
+                            <td><strong>患者意见</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[hospitaladvice]">{$record.hospitaladvice}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>住院号</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[hospitalnum]">{$record.hospitalnum}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><strong>复查</strong></td>
+                            <td colspan="3">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[nextcheck]"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><strong>备注</strong></td>
+                            <td colspan="3">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[remark]">{$record.remark}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  rowspan="2"><strong>对医生评价</strong></td>
+                            <td><strong>陪诊人员</strong></td>
+                            <td colspan="2">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[appraiseadmin]">{$record.appraiseadmin}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>患者及家属</strong></td>
+                            <td colspan="3">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[appraisecustom]">{$record.appraisecustom}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>陪诊人员</strong></td>
+                            <td colspan="3">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="1" name="record[admins]">{$record.admins}</textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:15px;"><strong>发送给</strong></td>
+                            <td colspan="3">
+                                    <div class="form-group">
+                                            {$groupList}
+                                    </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div class="form-group layer-footer">
+            <label class="control-label col-xs-12 col-sm-2"></label>
+            <div class="col-xs-12 col-sm-8">
+                <button type="submit" class="btn btn-success" onclick="if(document.getElementById('edit-form')){document.getElementById('edit-form').submit(function(){parent.layer.closeAll();});};">{:__('OK')}</button>
+                <button class="btn" onclick="window.open('order/exportWord?id={$record.id}');parent.layer.closeAll();">导出</button>
+            </div>
+        </div>
+    </form>

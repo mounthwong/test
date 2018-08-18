@@ -1,0 +1,1924 @@
+---------------------------------------------------------------
+[ 2018-08-04T23:57:41+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027765s][吞吐率：36.02req/s] [内存消耗：1,186.98kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000722s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000319s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004160s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398261) [ RunTime:0.002330s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:57:41+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788544
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788544 [运行时间：0.045139s][吞吐率：22.15req/s] [内存消耗：1,476.60kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000813s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/my?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788544',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000315s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\My->index[ /usr/share/nginx/html/managers/application/admin/controller/order/My.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000047s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000256s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` IS NULL LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.001564s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:57:46+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027921s][吞吐率：35.82req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004098s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398266) [ RunTime:0.002198s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:57:51+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.026628s][吞吐率：37.55req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000702s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004155s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398271) [ RunTime:0.002277s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:57:53+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788633
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788633 [运行时间：0.047335s][吞吐率：21.13req/s] [内存消耗：1,503.70kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000725s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/order?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788633',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000234s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->index[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000048s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.003006s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:57:56+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027830s][吞吐率：35.93req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000225s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004663s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000403s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398276) [ RunTime:0.002661s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:01+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027429s][吞吐率：36.46req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000652s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004373s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398281) [ RunTime:0.002492s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:06+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027797s][吞吐率：35.98req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000672s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004246s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398286) [ RunTime:0.002304s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:11+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027056s][吞吐率：36.96req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000686s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000216s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004253s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398291) [ RunTime:0.002352s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:16+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027064s][吞吐率：36.95req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000677s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004436s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398296) [ RunTime:0.002524s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:21+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027450s][吞吐率：36.43req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000703s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004056s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398301) [ RunTime:0.002190s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:26+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027713s][吞吐率：36.08req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000664s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000246s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004298s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398306) [ RunTime:0.002316s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:31+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788545
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788545 [运行时间：0.027564s][吞吐率：36.28req/s] [内存消耗：1,476.63kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000917s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/my?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788545',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000336s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\My->index[ /usr/share/nginx/html/managers/application/admin/controller/order/My.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` IS NULL LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.001615s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:31+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.049716s][吞吐率：20.11req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000905s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000336s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004481s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398311) [ RunTime:0.002657s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:36+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027186s][吞吐率：36.78req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000240s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004246s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398316) [ RunTime:0.002329s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:41+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.026561s][吞吐率：37.65req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000650s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000216s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004236s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398321) [ RunTime:0.002371s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:46+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.029066s][吞吐率：34.40req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000667s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000236s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005579s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398326) [ RunTime:0.003659s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:51+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027839s][吞吐率：35.92req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000718s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000233s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398331) [ RunTime:0.002377s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:53+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788634
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788634 [运行时间：0.044434s][吞吐率：22.51req/s] [内存消耗：1,503.70kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000643s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/order?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788634',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000232s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->index[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000044s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.002943s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:58:56+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027551s][吞吐率：36.30req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000679s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000220s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004545s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001510s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398336) [ RunTime:0.002605s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:01+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027092s][吞吐率：36.91req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000660s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000217s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004500s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398341) [ RunTime:0.002577s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:06+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.026804s][吞吐率：37.31req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000744s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004228s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398346) [ RunTime:0.002388s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:11+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027784s][吞吐率：35.99req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000675s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000238s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004355s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398351) [ RunTime:0.002418s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:16+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027041s][吞吐率：36.98req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000683s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000228s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004107s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398356) [ RunTime:0.002235s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:21+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788546
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/my/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788546 [运行时间：0.026910s][吞吐率：37.16req/s] [内存消耗：1,476.63kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000887s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/my?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788546',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000331s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\My->index[ /usr/share/nginx/html/managers/application/admin/controller/order/My.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000051s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` IS NULL LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` WHERE  `kfsendperson` IS NULL ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.001725s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:21+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.049228s][吞吐率：20.31req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000904s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000331s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004282s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398361) [ RunTime:0.002379s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:26+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.027564s][吞吐率：36.28req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004300s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398366) [ RunTime:0.002450s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:31+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.026238s][吞吐率：38.11req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000625s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000211s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004449s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398371) [ RunTime:0.002621s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:36+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.028865s][吞吐率：34.64req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000741s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000222s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005170s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001583s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398376) [ RunTime:0.003280s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:41+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.032123s][吞吐率：31.13req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000697s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000235s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008675s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398381) [ RunTime:0.006723s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:46+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.028020s][吞吐率：35.69req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000704s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000234s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004263s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398386) [ RunTime:0.002367s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:51+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.028127s][吞吐率：35.55req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000714s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000241s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004337s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398391) [ RunTime:0.002386s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:53+08:00 ] 120.194.3.98 GET /managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788635
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&type=1&level=2&_=1532930788635 [运行时间：0.044436s][吞吐率：22.50req/s] [内存消耗：1,503.70kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/order/order?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  'type' => '1',
+  'level' => '2',
+  '_' => '1532930788635',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000215s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->index[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000045s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order_info` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `product_order`.`id`,`product_order`.`orderid`,`product_order`.`payorderid`,`product_order`.`userid`,`product_order`.`type`,`product_order`.`amount`,`product_order`.`status`,`product_order`.`createtime`,`product_order`.`paytype`,`product_order`.`paytime`,`product_order`.`updatetime`,`product_order`.`result`,`product_order`.`isdel`,`product_order`.`adminid`,`product_order`.`phone`,`product_order`.`truename`,`product_order`.`idcard`,`product_order`.`age`,`product_order`.`gender`,`product_order`.`region`,`product_order`.`cardnum`,`product_order`.`remark`,`product_order`.`customdetail`,`product_order`.`expecthospitaltype`,`product_order`.`expecthospital`,`product_order`.`expectdoctortype`,`product_order`.`expectdoctor`,`product_order`.`expecttimetype`,`product_order`.`expecttime`,`product_order`.`expectsectiontype`,`product_order`.`expectsection`,`product_order`.`customserver`,`product_order`.`customremark`,`product_order`.`kfupdatetime`,`product_order`.`kfaddtime`,`product_order`.`kfdoperson`,`product_order`.`kfsendtime`,`product_order`.`kfsendperson`,`product_order`.`appointhospitaltype`,`product_order`.`appointhospital`,`product_order`.`appointsectiontype`,`product_order`.`appointsection`,`product_order`.`appointdoctortype`,`product_order`.`appointdoctor`,`product_order`.`appointtimetype`,`product_order`.`appointtime`,`product_order`.`appointremark`,`product_order`.`appointsendtime`,`product_order`.`diagnosiscustomtime`,`product_order`.`diagnosistotaltime`,`product_order`.`diagnosistime`,`product_order`.`diagnosisdisease`,`product_order`.`diagnosisadvice`,`product_order`.`diagnosischeckname1`,`product_order`.`diagnosischeckgreentype1`,`product_order`.`diagnosischeckgreendoctor1`,`product_order`.`diagnosischeckname2`,`product_order`.`diagnosischeckgreentype2`,`product_order`.`diagnosischeckgreendoctor2`,`product_order`.`diagnosischeckname3`,`product_order`.`diagnosischeckgreentype3`,`product_order`.`diagnosischeckgreendoctor3`,`product_order`.`diagnosischeckname4`,`product_order`.`diagnosischeckgreentype4`,`product_order`.`diagnosischeckgreendoctor4`,`product_order`.`diagnosischeckname5`,`product_order`.`diagnosischeckgreentype5`,`product_order`.`diagnosischeckgreendoctor5`,`product_order`.`diagnosischeckresulttype`,`product_order`.`diagnosisreport`,`product_order`.`diagnosischeckremark`,`product_order`.`diagnosismedicine`,`product_order`.`diagnosismedicineresulttype`,`product_order`.`diagnosismedicineremark`,`product_order`.`diagnosishospitalnum`,`product_order`.`diagnosisreview`,`product_order`.`diagnosiscustomappra`,`product_order`.`diagnosispersonappra`,`product_order`.`diagnosisisreview`,`product_order`.`diagnosisover`,`product_order`.`diagnosisaddtime`,`product_order`.`diagnosisupdatetime`,`product_order`.`visitdoctorattitude`,`product_order`.`visitdoctorskill`,`product_order`.`visitpersonattitude`,`product_order`.`visitpersonquality`,`product_order`.`visitcustomadvice`,`product_order`.`visitaddtime`,`product_order`.`overtime`,userinfo.id AS userinfo__id,userinfo.group_id AS userinfo__group_id,userinfo.username AS userinfo__username,userinfo.nickname AS userinfo__nickname,userinfo.password AS userinfo__password,userinfo.idcard AS userinfo__idcard,userinfo.salt AS userinfo__salt,userinfo.email AS userinfo__email,userinfo.mobile AS userinfo__mobile,userinfo.avatar AS userinfo__avatar,userinfo.gender AS userinfo__gender,userinfo.birthday AS userinfo__birthday,userinfo.successions AS userinfo__successions,userinfo.maxsuccessions AS userinfo__maxsuccessions,userinfo.prevtime AS userinfo__prevtime,userinfo.logintime AS userinfo__logintime,userinfo.loginip AS userinfo__loginip,userinfo.loginfailure AS userinfo__loginfailure,userinfo.joinip AS userinfo__joinip,userinfo.jointime AS userinfo__jointime,userinfo.createtime AS userinfo__createtime,userinfo.updatetime AS userinfo__updatetime,userinfo.token AS userinfo__token,userinfo.status AS userinfo__status,userinfo.verification AS userinfo__verification,userinfo.sex AS userinfo__sex,userinfo.age AS userinfo__age,userinfo.city AS userinfo__city,userinfo.region AS userinfo__region,userinfo.md5 AS userinfo__md5,orderinfo.id AS orderinfo__id,orderinfo.orderid AS orderinfo__orderid,orderinfo.productid AS orderinfo__productid,orderinfo.productinfoid AS orderinfo__productinfoid,orderinfo.addtime AS orderinfo__addtime,orderinfo.num AS orderinfo__num,orderinfo.price AS orderinfo__price,orderinfo.status AS orderinfo__status,orderinfo.userid AS orderinfo__userid,orderinfo.name AS orderinfo__name,orderinfo.productname AS orderinfo__productname,orderinfo.pic AS orderinfo__pic FROM `fa_product_order` `product_order` LEFT JOIN `fa_user` `userinfo` ON `product_order`.`userid`=`userinfo`.`username` LEFT JOIN `fa_product_order_info` `orderinfo` ON `product_order`.`orderid`=`orderinfo`.`orderid` ORDER BY `product_order`.`id` DESC LIMIT 0,10 [ RunTime:0.003023s ]
+---------------------------------------------------------------
+[ 2018-08-04T23:59:56+08:00 ] 120.194.3.98 POST /managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732
+[ info ] www.hnumg.cn/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732 [运行时间：0.028029s][吞吐率：35.68req/s] [内存消耗：1,186.65kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000701s ]
+[ info ] [ LANG ] /usr/share/nginx/html/managers/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'getUnreadOrderList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.hnumg.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'origin' => 'http://www.hnumg.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.hnumg.cn/managers/public/index.php/admin/user/user?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=6uvtm1r2o6diq0l0th48030ci5',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'jQuery22409962025513675983_1532930774732',
+)
+[ info ] [ LANG ] /usr/share/nginx/html/managers/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000237s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\order\Order->getUnreadOrderList[ /usr/share/nginx/html/managers/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004331s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_order` [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_order` WHERE  (  customdetail is null ) [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"callback\":\"jQuery22409962025513675983_1532930774732\"}' , '/managers/public/index.php/admin/order/order/getUnreadOrderList?callback=jQuery22409962025513675983_1532930774732' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '120.194.3.98' , 1533398396) [ RunTime:0.002387s ]

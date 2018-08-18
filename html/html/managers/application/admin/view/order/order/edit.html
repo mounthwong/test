@@ -1,0 +1,92 @@
+<style>
+    .table tbody tr td{
+            vertical-align: middle;
+            text-align:center;
+            border: 1px solid #000 !important;
+        }
+
+        .table tbody tr td textarea{
+            width:95%;
+        }
+
+         .table tbody tr td input{
+            width:95%;
+        }
+
+        .tds{
+            width:95% !important;;
+        }
+
+</style>
+<form id="add-form" class="form-horizontal form-ajax" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <td style="width:20%;height:100px;font-size:15px;"><strong>患者现状</strong></td>
+                    <td colspan="2">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="10" name="row[customdetail]">{$row.customdetail}</textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" style="font-size:15px;"><strong>服务需求</strong></td>
+                    <td  style="width:20%;" ><strong>医院</strong></td>
+                    <td>
+                        <div class="form-group">
+                            <input id="c-hospital" data-rule="required" class="form-control" name="row[hospital]" type="text" value="{$row.hospital}">
+                            <!-- <textarea class="form-control" rows="1" name="row[hospital]">{$row.hospital}</textarea> -->
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><strong>医生</strong></td>
+                    <td>
+                        <div class="form-group">
+                            <input id="c-doctor" data-rule="required" class="form-control" name="row[doctor]" type="text" value="{$row.doctor}">   
+                            <!-- <textarea class="form-control" rows="1" name="row[doctor]">{$row.doctor}</textarea> -->
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><strong>期望看诊时间</strong></td>
+                    <td>
+                        <div class="form-group">
+                            <input id="c-treatmenttime" data-rule="required" class="form-control" name="row[treatmenttime]" type="text" value="{$row.treatmenttime}">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td  style="height:100px;font-size:15px;"><strong>备注</strong></td>
+                    <td colspan="2">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4"  name="row[customremark]">{$row.customremark}</textarea>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:15px;"><strong>受理人</strong></td>
+                    <td colspan="2" align="left" style="text-align:left;">
+                            {$truename}
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:15px;"><strong>发送给</strong></td>
+                    <td colspan="2">
+                            <div class="form-group">
+                                 {$groupList}
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form-group hidden layer-footer">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
